@@ -1,10 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Booking</title>
-  </head>
-  <body></body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Wonders</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="../images/logo_travel.gif" alt="logo of site" class="logo">
+            <h1>7 Wondres</h1>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </header>
+        <nav class="zone">
+            <ul class="main-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Our Tours</a></li>
+                <li class="push"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        
+        <section class="form">
+            <div class="form-section">
+                <form action="#">
+                    <label for="tours">Select your tour</label>
+                    <select id="tours" name="tours">
+                        <option value="great wall of china"></option>
+                        <option value="great wall of china">The Great Wall od China</option>
+                        <option value="colosseum">Colosseum</option>
+                        <option value="taj mahal">Taj Mahal</option>
+                        <option value="petra">Petra</option>
+                        <option value="chiche itza"> Chichen Itza</option>
+                        <option value="machu picchu">Machu Picchu</option>
+                        <option value="christ the redeemer">Christ the Redeemer</option>
+                    </select>
+                
+                    <label for="days">How many days?</label>
+                    <input id="number" type="number" value="">
+                
+                    <label for="travellers">How many travellers?</label>
+                    <input id="number" type="number" value="">
+                    <label for="fname">First name</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address">
+                    <label for="phoneNr">Phone number</label>
+                    <input id="phoneNr" name="phoneNr" type="tel">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="calendar">Calendar</label>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="logo-box">
+                <img class="logo1" src="../images/" alt="logo of image">
+            </div>
+            <div class="column">
+                <div class="col">
+                    <div class="footer__navigation">
+                        <h1 class="title">Contact Us</h1>
+                        <ul>
+                            <li class="footer-item"> <i class="fas fa-phone"></i> +358 401 234 567</li>
+                            <li class="footer-item"><i class="fas fa-envelope-square"></i> info.@yahoo.com</li>
+                            <li class="footer-item"> <i class="fas fa-map-marker-alt"></i> 0123 Helsinki, Finland</li>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    
+</body>
 </html>
+
