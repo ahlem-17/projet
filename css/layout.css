@@ -1,8 +1,8 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
-
+} */
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Bitter&family=Lobster&family=Milonga&display=swap");
 html {
   font-size: 62.5%;
 }
@@ -11,12 +11,52 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
-.container {
-  box-sizing: border-box;
+figure {
+  display: block;
 }
+figure img {
+  max-width: 100%;
+  background-color: #021c2f;
+}
+
+.main-image {
+  height: 600px;
+  background-image: url("/images/machu_picchu.jpg");
+  background-size: cover;
+  vertical-align: middle;
+  background-position: center;
+}
+.main-image-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Bitter", serif;
+  font-size: 7rem;
+  font-weight: 1000;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 5px #000000;
+}
+.nav-flex {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  justify-self: center;
+}
+.nav-icon {
+  height: 100px;
+  background-color: #ffffff;
+  margin-top: -1rem;
+  padding: 0 2rem 0 2rem;
+}
+
+/* .container {
+  box-sizing: border-box;
+} */
 
 /* AHLEM'S LOGO CSS RULE */
 /* .logo {
@@ -178,10 +218,6 @@ nav {
   left: 0;
 }
 
-figure img {
-  max-width: 100%;
-}
-
 h1 {
   font-size: 3rem;
   margin: 2rem;
@@ -213,14 +249,14 @@ li a {
   color: #ffffff;
 }
 li a:hover {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   color: #000000;
   font-weight: bold;
   padding: 3px;
 }
 
 li .active {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   color: black;
   font-weight: bold;
 }
@@ -318,175 +354,151 @@ footer p {
   font-size: 2rem;
 }
 
- * {
-     margin: 0;
-     padding: 0;
- }
- 
- html {
-     font-size: 62.5%;
- }
- 
- body {
-     font-family: 'Open Sans', sans-serif;
-     font-weight: 400;
-     line-height: 1.6;
-     min-height: 100vh;
- }
- 
- .container {
-     box-sizing: border-box;
- }
- 
- .logo {
-     height: 4rem;
-     margin-left: 2rem;
- }
- 
- .header {
-     font-size: 1.4rem;
-     height: 5rem;
-     background-color: #fff;
-     border-bottom: var(--line);
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
- }
- 
- h1 {
-     font-size: 3rem;
-     letter-spacing: 10px;
-     margin-left: 5rem;
- }
- 
- .icons {
-     font-size: 3rem;
-     margin-left: auto;
-     padding: 1rem;
-     margin-right: 1.7rem;
-     color: #1A71BB;
- }
- 
- .fa-instagram {
-     color: #E50E31;
- }
- 
- .fa-twitter-square {
-     color: #239BF0;
- }
- 
- .zone {
-     font-size: 1rem;
-     border-radius: 4px;
-     border: 1px solid #bbb;
-     transition: all 0.3s linear;
-     background-color: #021C2F;
- }
- 
- .main-nav {
-     display: flex;
-     list-style: none;
-     margin: 0;
-     font-size: 2rem;
- }
- 
- li {
-     padding: 15px;
- }
- 
- a {
-     color: white;
-     text-decoration: none;
- }
- 
- .push {
-     margin-left: auto;
- }
- 
- .mySlides {
-     display: none;
- }
- 
- img {
-     vertical-align: middle;
- }
- 
- .slideshow-container {
-     max-width: 1000px;
-     position: relative;
-     margin: auto;
- }
- 
- .dot {
-     height: 15px;
-     width: 15px;
-     margin: 0 2px;
-     background-color: #bbb;
-     border-radius: 50%;
-     display: inline-block;
-     transition: background-color 0.6s ease;
- }
- 
- .active {
-     background-color: #717171;
- }
- 
- .fade {
-     -webkit-animation-name: fade;
-     -webkit-animation-duration: 1.5s;
-     animation-name: fade;
-     animation-duration: 1.5s;
- }
- 
- @-webkit-keyframes fade {
-     from {
-         opacity: .4
-     }
-     to {
-         opacity: 1
-     }
- }
- 
- @keyframes fade {
-     from {
-         opacity: .4
-     }
-     to {
-         opacity: 1
-     }
- }
- 
- .footer {
-     background-color: #021B2F;
-     padding: 4rem 0;
-     font-size: 1.4rem;
-     color: white;
- }
- 
- .logo-box {
-     text-align: center;
-     margin-bottom: 8rem;
- }
- 
- .logo1 {
-     width: 15rem;
-     height: auto;
- }
- 
- .title {
-     text-align: left;
- }
- 
- li {
-     margin-left: 2rem;
- }
+.logo {
+  height: 4rem;
+  margin-left: 2rem;
+}
 
+.header {
+  font-size: 1.4rem;
+  height: 5rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
- .form {
+h1 {
+  font-size: 3rem;
+  letter-spacing: 10px;
+  margin-left: 5rem;
+}
 
+.icons {
+  font-size: 3rem;
+  margin-left: auto;
+  padding: 1rem;
+  margin-right: 1.7rem;
+  color: #1a71bb;
+}
 
- }
+.fa-instagram {
+  color: #e50e31;
+}
 
- .form-section {
+.fa-twitter-square {
+  color: #239bf0;
+}
 
- }
+.zone {
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  transition: all 0.3s linear;
+  background-color: #021c2f;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* li {
+  padding: 15px;
+} */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.footer {
+  background-color: #021b2f;
+  padding: 4rem 0;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.logo-box {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.logo1 {
+  width: 15rem;
+  height: auto;
+}
+
+.title {
+  text-align: left;
+}
+
+/* li {
+  margin-left: 2rem;
+} */
+
+.form {
+}
+
+.form-section {
+}
