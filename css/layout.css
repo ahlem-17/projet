@@ -1,3 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+/* AHLEM'S LOGO CSS RULE */
+/* .logo {
+  height: 4rem;
+  margin-left: 2rem;
+} */
+
+/* AHLEM HEADER RULES */
+/* .header {
+  font-size: 1.4rem;
+  height: 5rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 10px;
+  margin-left: 5rem;
+}
+
+.icons {
+  font-size: 3rem;
+  margin-left: auto;
+  padding: 1rem;
+  margin-right: 1.7rem;
+  color: #1a71bb;
+}
+
+.fa-instagram {
+  color: #e50e31;
+}
+
+.fa-twitter-square {
+  color: #239bf0;
+} */
+
+/* AHLEM'S NAV RULES */
+/* .zone {
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  transition: all 0.3s linear;
+  background-color: #021c2f;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 2rem;
+}
+
+li {
+  padding: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.push {
+  margin-left: auto;
+} */
+
+/* SLIDESHOW RULES */
+
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* AHLEM'S FOOTER RULES */
+/* .footer {
+  background-color: #021b2f;
+  padding: 4rem 0;
+  font-size: 1.4rem;
+  color: white;
+} */
+
+/* .logo-box {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.logo1 {
+  width: 15rem;
+  height: auto;
+} */
+
+/* .title {
+  text-align: left;
+} */
+
+/* li {
+  margin-left: 2rem;
+} */
+
+/* ########################################## */
+/* FROM OLD LAYOUT.CSS */
+
+nav {
+  background-color: #2d394b;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem;
+  letter-spacing: 5px;
+  font-variant-caps: petite-caps;
+}
+h2 {
+  font-size: 2.2rem;
+  padding: 1rem 0 0 3rem;
+  font-variant-caps: petite-caps;
+  letter-spacing: 3px;
+}
+h3 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+li {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 3px;
+}
+li a {
+  color: #ffffff;
+}
+li a:hover {
+  background-color: aquamarine;
+  color: #000000;
+  font-weight: bold;
+  padding: 3px;
+}
+
+li .active {
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #11263a;
+  color: #ffffff;
+  padding: 3rem;
+  text-align: center;
+}
+footer p {
+  font-size: 1.2rem;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 3rem;
+}
+
+#logo {
+  width: 10rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.indent {
+  flex-grow: 2;
+}
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.flex1 > * {
+  flex-grow: 1;
+  flex-basis: 0;
+  order: 3;
+  padding: 1rem;
+}
+
+#first {
+  padding: 2rem;
+}
+#third {
+  padding: 2rem;
+  line-height: 2;
+  background-color: #2d394b;
+  color: #ffffff;
+}
+.align {
+  display: flex;
+  padding: 1rem;
+}
+
+.center {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.card {
+  border: 1.5px solid darkgrey;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.right {
+  text-align: right;
+  padding: 1rem;
+  margin-right: 5rem;
+}
+.text {
+  padding: 1.6rem;
+}
+.hand {
+  font-size: 1.8rem;
+  color: #2d394b;
+  margin-right: 1rem;
+}
+
+.blue {
+  color: #4867aa;
+  padding-right: 3rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
  * {
      margin: 0;
      padding: 0;
