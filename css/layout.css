@@ -1,7 +1,7 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+}
 @import url("https://fonts.googleapis.com/css2?family=Amita&family=Bitter&family=Lobster&family=Milonga&display=swap");
 html {
   font-size: 62.5%;
@@ -43,15 +43,21 @@ figure img {
 }
 .nav-flex {
   display: flex;
-  background-color: #ffffff;
+  background-color: #383838;
   justify-content: center;
   justify-self: center;
 }
 .nav-icon {
   height: 100px;
-  background-color: #ffffff;
-  margin-top: -1rem;
-  padding: 0 2rem 0 2rem;
+  background-color: #383838;
+  /* padding: 0 2rem 0 2rem; */
+  border-radius: 70px;
+}
+.nav-icon:hover {
+  transform: scale(1.5);
+}
+.icon-text {
+  font-family: "Bitter", serif;
 }
 
 /* .container {
@@ -241,9 +247,9 @@ p {
 
 li {
   font-size: 1.2rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding: 1rem;
-  margin: 3px;
+  /* margin: 3px; */
 }
 li a {
   color: #ffffff;
