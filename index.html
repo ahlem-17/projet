@@ -16,103 +16,111 @@
 
   <body>
     <div class="container">
-      <header>
-        <div id="header">
-          <figure id="logo">
-            <a href="./"><img src="./images/logo_travel.gif" alt="" /></a>
-          </figure>
-          <h1 class="indent">Company name</h1>
-          <p>
-            <a href="https://fi-fi.facebook.com/">
-              <span class="blue fab fa-facebook"></span
-            ></a>
-          </p>
-          <p>
-            <a href=""><span class="blue fab fa-twitter"></span></a>
-          </p>
-          <p>
-            <a href=""> <span class="blue fab fa-instagram"></span></a>
-          </p>
-        </div>
+      <header class="header">
+        <figure id="logo">
+          <a href="./"><img src="./images/logo_travel.gif" alt="" /></a>
+        </figure>
+        <p><a href="#tours-nav" class="header-text">Adventures</a></p>
+        <p>
+          <a href="./booking/" class="header-text">Booking</a>
+        </p>
+        <p>
+          <a href="./reviews/" class="header-text">Reviews</a>
+        </p>
+        <p></p>
+        <p>
+          <a href="https://fi-fi.facebook.com/">
+            <span class="blue fab fa-facebook"></span
+          ></a>
+        </p>
+        <p>
+          <a href=""><span class="blue fab fa-twitter"></span></a>
+        </p>
+        <p>
+          <a href=""> <span class="blue fab fa-instagram"></span></a>
+        </p>
       </header>
 
-      <section class="main-image">
-        <p class="main-image-text">Explore the seven wonders</p>
+      <section class="main-image flex-center">
+        <p class="main-image-text">Seven wonders</p>
+        <p class="main-image-text smaller">Your next adevnture starts here</p>
       </section>
-      <nav>
-        <ul class="nav-flex">
-          <li>
-            <a href="#chichenitcha">
-              <img
-                src="./images/icons/chichenitcha-icon.PNG"
-                class="nav-icon"
-                alt="chichenitcha-icon"
-              />
-              <!-- <span class="icon-text">Chichén Itzá</span> -->
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/icons/colosseum-icon.PNG"
-                class="nav-icon"
-                alt="colosseum-icon"
-              />
-            </a>
-            <!-- <span class="icon-text">Colosseum</span> -->
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/icons/jesus-icon.PNG"
-                class="nav-icon"
-                alt="jesus-icon"
-              />
-            </a>
-            <!-- <span class="icon-text">Christ the Redeemer</span> -->
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/icons/machupicchu-icon.PNG"
-                class="nav-icon"
-                alt="machupicchu-icon"
-              />
-            </a>
-            <!-- <span class="icon-text">Machu Picchu</span> -->
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/icons/petra-icon.PNG"
-                class="nav-icon"
-                alt="petra-icon"
-              />
-            </a>
-            <!-- <span class="icon-text">The ancient city of Petra</span> -->
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/icons/tajmahal-icon.PNG"
-                class="nav-icon"
-                alt="tajmahal-icon"
-              />
-            </a>
-            <!-- <span class="icon-text">Taj Mahal</span> -->
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/icons/wallchina-icon.PNG"
-                class="nav-icon"
-                alt="tajmahal-icon"
-              />
-            </a>
-            <!-- <span class="icon-text">Great wall of China</span> -->
-          </li>
-        </ul>
-      </nav>
+      <section class="tour-nav-container">
+        <nav id="tours-nav">
+          <ul class="nav-grid">
+            <li>
+              <a href="#chichenitcha">
+                <img
+                  src="./images/icons/chichenitcha-icon-transparent.png"
+                  class="nav-icon"
+                  alt="chichenitcha-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/icons/colosseum-icon.PNG"
+                  class="nav-icon"
+                  alt="colosseum-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/icons/jesus-icon.PNG"
+                  class="nav-icon"
+                  alt="jesus-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/icons/machupicchu-icon.PNG"
+                  class="nav-icon"
+                  alt="machupicchu-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/icons/petra-icon.PNG"
+                  class="nav-icon"
+                  alt="petra-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/icons/tajmahal-icon-transparent.png"
+                  class="nav-icon"
+                  alt="tajmahal-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/icons/wallchina-icon.PNG"
+                  class="nav-icon"
+                  alt="tajmahal-icon"
+                />
+              </a>
+            </li>
+            <li class="icon-text">Chichén Itzá</li>
+            <li class="icon-text">Colosseum</li>
+            <li class="icon-text">Christ the Redeemer</li>
+            <li class="icon-text">Machu Picchu</li>
+            <li class="icon-text">The Ancient City of Petra</li>
+            <li class="icon-text">Taj Mahal</li>
+            <li class="icon-text">Great wall of China</li>
+          </ul>
+        </nav>
+      </section>
 
       <section id="chichenitcha">
         <section class="tours">
@@ -180,15 +188,6 @@
                 <li class="push"><a href="#">Contact</a></li>
             </ul>
         </nav> -->
-
-      <!-- <nav>
-        <ul class="flex">
-          <li><a href="./" class="active">Home</a></li>
-          <li><a href="./tours/">Our tours</a></li>
-          <li><a href="./booking/">Booking</a></li>
-          <li><a href="./reviews/">Reviews</a></li>
-        </ul>
-      </nav> -->
 
       <section>
         <h1 id="destination" class="center">Our Destinations</h1>
