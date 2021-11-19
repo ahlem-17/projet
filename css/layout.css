@@ -63,7 +63,6 @@ figure img {
   background-size: cover;
   vertical-align: middle;
   background-position: center;
-  /* filter: brightness(0.70); */
 }
 .flex-center {
   display: flex;
@@ -72,10 +71,6 @@ figure img {
   align-items: center;
 }
 .main-image-text {
-  /* position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   text-align: center;
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 8rem;
