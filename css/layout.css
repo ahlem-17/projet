@@ -1,30 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Amita&family=Bitter&family=Lobster&family=Milonga&family=Montserrat+Alternates&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html {
   font-size: 62.5%;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  min-height: 100vh;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  letter-spacing: 1px;
 }
 
 .container {
   box-sizing: border-box;
 }
 
+/* GENERAL RULES FOR RESPONSIVE IMAGES START */
+figure {
+  display: block;
+}
+figure img {
+  max-width: 100%;
+}
+/* GENERAL RULES FOR RESPONSIVE IMAGES END */
+
 /* HEADER NAV BAR RULES START HERE */
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 3fr 0.5fr 0.5fr 0.5fr;
+  grid-template-columns: 1fr 150px 150px 150px 3fr 50px 50px 50px;
   grid-template-rows: auto;
   margin: 0;
 }
@@ -41,17 +45,10 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
   color: #000000;
-  font-family: "Montserrat Alternates", sans-serif;
-}
-figure {
-  display: block;
-}
-figure img {
-  max-width: 100%;
+  text-decoration: none;
 }
 #logo {
   width: 10rem;
-  padding: 1rem 2rem 2rem 2rem;
 }
 /* HEADER NAV BAR RULES END HERE */
 
@@ -63,7 +60,6 @@ figure img {
   background-size: cover;
   vertical-align: middle;
   background-position: center;
-  /* filter: brightness(0.70); */
 }
 .flex-center {
   display: flex;
@@ -72,16 +68,13 @@ figure img {
   align-items: center;
 }
 .main-image-text {
-  /* position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   text-align: center;
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 8rem;
   font-weight: 1000;
   color: white;
   text-shadow: 0 0 5px #000000;
+  margin: 0;
 }
 .smaller {
   font-size: 3rem;
@@ -116,17 +109,17 @@ figure img {
   transform: scale(1.1);
 }
 .icon-text {
-  font-family: "Montserrat Alternates", sans-serif;
   color: white;
   text-align: center;
   padding-top: unset;
+  font-size: 1.1rem;
+  letter-spacing: unset;
 }
 /* TOUR NAV BAR RULES END HERE */
 
 /* TOUR CARDS START HERE */
 .tours-h2 {
   grid-area: header;
-  font-family: "Montserrat Alternates", sans-serif;
   font-size: 3rem;
   font-weight: 800;
 }
