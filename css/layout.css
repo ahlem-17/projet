@@ -92,7 +92,8 @@ figure img {
   grid-template-rows: auto;
   background-color: #282828;
   margin: auto;
-  /* padding: 1rem 0 0.5rem 0; */
+  padding: 1rem 0 1rem 0;
+  gap: 3rem;
 }
 
 .nav-grid > * {
@@ -105,15 +106,31 @@ figure img {
   background-color: #282828;
   border-radius: 70px;
 }
-.nav-icon:hover {
-  transform: scale(1.1);
+.img-container {
+  position: relative;
+}
+.img-container:hover .nav-icon {
+  opacity: 0.3;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .icon-text {
   color: white;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   letter-spacing: unset;
-  /* padding-top: 0.5rem; */
+  font-weight: 800;
 }
 /* TOUR NAV BAR RULES END HERE */
 
