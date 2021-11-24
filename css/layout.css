@@ -53,10 +53,9 @@ figure img {
 /* HEADER NAV BAR RULES END HERE */
 
 /* HERO SECTION STARTS HERE */
-
 .main-image {
   height: 600px;
-  background-image: url("/images/machu_picchu.jpg");
+  background-image: url("/images/backgrounds/machu-picchu-bg.png");
   background-size: cover;
   vertical-align: middle;
   background-position: center;
@@ -89,21 +88,22 @@ figure img {
 }
 .nav-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
   grid-template-rows: auto;
   background-color: #282828;
-  max-width: 1000px;
   margin: auto;
+  /* padding: 1rem 0 0.5rem 0; */
 }
+
 .nav-grid > * {
   justify-content: center;
   justify-self: center;
+  padding: 1rem;
 }
 .nav-icon {
   height: 100px;
   background-color: #282828;
   border-radius: 70px;
-  border: -1rem;
 }
 .nav-icon:hover {
   transform: scale(1.1);
@@ -111,9 +111,9 @@ figure img {
 .icon-text {
   color: white;
   text-align: center;
-  padding-top: unset;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   letter-spacing: unset;
+  /* padding-top: 0.5rem; */
 }
 /* TOUR NAV BAR RULES END HERE */
 
