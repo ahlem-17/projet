@@ -44,9 +44,9 @@
         
         <section class="form">
             <div class="form-section">
-                <form class="border" action="#">
+                <form class="border" action="#" id="myForm">
                     <div class="first">
-                        <label for="tours">Select your tour</label>
+                        <label class="label" for="tours">Select your tour</label>
                         <select id="tours" name="tours">
                             <option value="great wall of china">Choose...</option>
                             <option value="great wall of china">The Great Wall of China</option>
@@ -61,51 +61,63 @@
                 
                     
                     <div class="second">
-                        <label for="date">Choose a date</label>
-                        <input class="thinner" type="date" id="datemin" name="datemin" min="2000-01-02" max="">
+                        <label class="label" for="date">Departure date</label>
+                        <input class="thinner input" type="date" id="datemin" name="datemin" min="2000-01-02" max="">
                     </div>
 
-                    <div class="third">
-                        <label for="days">How many days?</label>
-                        <input id="number" type="number" min="1" max="" value="">
+                    <div class="second-return">
+                        <label class="label" for="date">Return date</label>
+                        <input class="thinner input" type="date" id="datemin" name="datemin" min="2000-01-02" max="">
                     </div>
+
+                    <!-- <div class="third">
+                        <label class="label" for="days">How many days?</label>
+                        <input class="input"  id="number" type="number" min="1" max="" value="">
+                    </div> -->
                                     
                     <div class="forth">
-                        <label for="travellers">How many travellers?</label>
-                        <input id="number" type="number" min="1" max="" value="">
+                        <label class="label" for="travellers">How many travellers?</label>
+                        <input class="input" id="number" type="number" min="1" max="" value="">
+                        
                     </div>
 
                     <div class="fifth">
-                        <label for="fname">First name</label>
-                        <input type="text" id="fname" name="fname">
+                        <label class="label" for="fname">First name</label>
+                        <input class="input" type="text" id="fname" name="fname">
+                       
                     </div>
 
                     <div class="sixth">
-                        <label for="lname">Last name</label>
-                        <input type="text" id="lname" name="lname">
+                        <label class="label" for="lname">Last name</label>                   
+                        <input class="input" type="text" id="lname" name="lname">
+                                               
                     </div>
 
                     <div class="seventh">
-                        <label for="address">Address</label>
-                        <input class="longer" type="text" id="address" name="address">
+                        <label class="label" for="address">Address</label>
+                        <input class="input" class="longer" type="text" id="address" name="address">
+                        
                     </div>
 
-                    <div class="eighth">
-                        <label for="phoneNr">Phone number</label>
-                        <input id="phoneNr" name="phoneNr" type="tel">
+                    <div  class="eighth">
+                        <label class="label" for="phoneNr">Phone number</label>
+                        <input class="input" id="phoneNr" name="phoneNr" type="tel">
+                        
                     </div>
 
                     <div class="ninth">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="username@example.com" id="email" name="email">
+                        <label class="label" for="email">Email</label>
+                        <input class="input" type="email" placeholder="username@example.com" id="email" name="email">
+                    </div>           
+
+                    <div class="tenth">
+                        <input class="submit input" type="submit" value="Submit">
                     </div>
 
-                   
-
-                    
-                    
-                    <div class="tenth">
-                        <input class="submit" type="submit" value="Submit">
+                    <h4 class="align-to-eleventh">Your booking</h4>
+                    <div class="eleventh">
+                      <input class="input" type="text" placeholder="Tour name">
+                      <input class="input" type="text" placeholder="Price">
                     </div>
                 </form>
             </div>
