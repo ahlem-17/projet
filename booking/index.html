@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seven Wonders</title>
     <link rel="stylesheet" href="../css/reset.css">
-    
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/booking.css">
     <script
@@ -19,24 +18,29 @@
 <body>
     <div class="container">
         <header class="header">
-            <img src="../images/logo_travel.gif" alt="logo of site" class="logo">
-            <h1>7 Wondres</h1>
-            <div class="icons">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter-square"></i>
-            </div>
+          <figure id="logo">
+            <a href="./"><img src="../images/logo_travel.gif" alt="" /></a>
+          </figure>
+          <p><a href="../index.html" class="header-text">Adventures</a></p>
+          <p>
+            <a href="#" class="header-text">Booking</a>
+          </p>
+          <p>
+            <a href="../reviews/" class="header-text">Reviews</a>
+          </p>
+          <p></p>
+          <p>
+            <a href="https://fi-fi.facebook.com/">
+              <span class="blue fab fa-facebook"></span
+            ></a>
+          </p>
+          <p>
+            <a href=""><span class="blue fab fa-twitter"></span></a>
+          </p>
+          <p>
+            <a href=""> <span class="blue fab fa-instagram"></span></a>
+          </p>
         </header>
-        <nav class="zone">
-            <ul class="main-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Booking</a></li>
-                <li><a href="#">Our Tours</a></li>
-                <li class="push"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
         
         <section class="form">
             <div class="form-section">
@@ -96,7 +100,7 @@
                         <input type="email" placeholder="username@example.com" id="email" name="email">
                     </div>
 
-                    <!-- Here start the calendar -->
+                   
 
                     
                     
@@ -107,24 +111,19 @@
             </div>
         </section>
 
-        <footer class="footer">
-            <div class="logo-box">
-                <img class="logo1" src="../images/" alt="logo of image">
-            </div>
-            <div class="column">
-                <div class="col">
-                    <div class="footer__navigation">
-                        <h1 class="title">Contact Us</h1>
-                        <ul>
-                            <li class="footer-item"> <i class="fas fa-phone"></i> +358 401 234 567</li>
-                            <li class="footer-item"><i class="fas fa-envelope-square"></i> info.@yahoo.com</li>
-                            <li class="footer-item"> <i class="fas fa-map-marker-alt"></i> 0123 Helsinki, Finland</li>
-                    </div>
-                </div>
-            </div>
-
-        </footer>
-    </div>
+        <section id="third">
+            <h2>Contact Us</h2>
+            <p><span class="blue fas fa-phone-alt"></span> +358 401 234 567</p>
+            <p><span class="blue fas fa-envelope"></span>info.@yahoo.com</p>
+            <p>
+              <span class="blue fas fa-location-arrow"></span> 0123 Helsinki,
+              Finland
+            </p>
+          </section>
+          <footer class="footer">
+            <p>&copy 2021 Company name. All rights reserved.</p>
+          </footer>
+        </div>    </div>
     
 </body>
 </html>
