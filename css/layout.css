@@ -406,6 +406,7 @@ img {
 footer p {
   font-size: 1.2rem;
 }
+
 /* FOOTER RULES END HERE */
 
 /* MEDIA QUERY RULES START HERE */
@@ -414,3 +415,4 @@ footer p {
 }
 @media only screen and (min-width: 769px) {
 }
+
