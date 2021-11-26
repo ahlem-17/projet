@@ -1,92 +1,114 @@
 @import url("https://fonts.googleapis.com/css2?family=Amita&family=Bitter&family=Lobster&family=Milonga&family=Montserrat+Alternates&display=swap");
-
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.8;
-  letter-spacing: 1px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    letter-spacing: 1px;
 }
 
 .container {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+
 /* GENERAL RULES FOR RESPONSIVE IMAGES START */
+
 figure {
-  display: block;
+    display: block;
 }
+
 figure img {
-  max-width: 100%;
+    max-width: 100%;
 }
+
+
 /* GENERAL RULES FOR RESPONSIVE IMAGES END */
+
 
 /* HEADER NAV BAR RULES START HERE */
 
 .header {
-  display: grid;
-  grid-template-columns: 1fr 150px 150px 150px 3fr 50px 50px 50px;
-  grid-template-rows: auto;
-  margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 150px 150px 150px 3fr 50px 50px 50px;
+    grid-template-rows: auto;
+    margin: 0;
 }
-.header > * {
-  align-self: center;
+
+.header>* {
+    align-self: center;
 }
+
 .blue {
-  color: #282828;
-  padding-right: 3rem;
-  font-size: 2.5rem;
+    color: #282828;
+    padding-right: 3rem;
+    font-size: 2.5rem;
 }
 
 .header-text {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #000000;
-  text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
 }
+
 #logo {
-  width: 10rem;
+    width: 10rem;
 }
+
+
 /* HEADER NAV BAR RULES END HERE */
+
 
 /* HERO SECTION STARTS HERE */
 .main-image {
+
   height: 600px;
   background-image: url("/images/backgrounds/machu-picchu-bg.png");
   background-size: cover;
   vertical-align: middle;
   background-position: center;
+
 }
+
 .flex-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .main-image-text {
-  text-align: center;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 8rem;
-  font-weight: 1000;
-  color: white;
-  text-shadow: 0 0 5px #000000;
-  margin: 0;
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 8rem;
+    font-weight: 1000;
+    color: white;
+    text-shadow: 0 0 5px #000000;
+    margin: 0;
 }
+
 .smaller {
-  font-size: 3rem;
+    font-size: 3rem;
 }
+
+
 /* HERO SECTION RULES END HERE */
 
+
 /* TOUR NAV BAR RULES STARTS HERE */
+
 .tour-nav-container {
-  background-color: #282828;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+    background-color: #282828;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
 .nav-grid {
+
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
   grid-template-rows: auto;
@@ -100,7 +122,7 @@ figure img {
   justify-content: center;
   justify-self: center;
   padding: 1rem;
-}
+
 .nav-icon {
   height: 100px;
   background-color: #282828;
@@ -125,6 +147,11 @@ figure img {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.nav-icon:hover {
+    transform: scale(1.1);
+}
+
 .icon-text {
   color: white;
   text-align: center;
@@ -132,147 +159,269 @@ figure img {
   letter-spacing: unset;
   font-weight: 800;
 }
+
+
 /* TOUR NAV BAR RULES END HERE */
 
+
 /* TOUR CARDS START HERE */
+
 .tours-h2 {
-  grid-area: header;
-  font-size: 3rem;
-  font-weight: 800;
+    grid-area: header;
+    font-size: 3rem;
+    font-weight: 800;
 }
+
 .tour-text {
-  grid-area: text;
+    grid-area: text;
 }
+
 .tours {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 1fr;
-  grid-template-areas:
-    "header header"
-    "text images";
-  max-width: 80%;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: "header header" "text images";
+    max-width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
 }
+
+
 /* TOUR CARDS END HERE*/
 
+
 /* SLIDESHOW RULES */
+
 .mySlides {
-  display: none;
+    display: none;
 }
 
 img {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
+
 /* SLIDESHOW RULES END */
 
+
 /* DESTINATIONS SECTION RULES START */
+
 .flex1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
 
-.flex1 > * {
-  flex-grow: 1;
-  flex-basis: 0;
-  order: 3;
-  padding: 1rem;
+.flex1>* {
+    flex-grow: 1;
+    flex-basis: 0;
+    order: 3;
+    padding: 1rem;
 }
 
 #first {
-  padding: 2rem;
+    padding: 2rem;
 }
+
 #third {
-  padding: 2rem;
-  line-height: 2;
-  background-color: #2d394b;
-  color: #ffffff;
+    padding: 2rem;
+    line-height: 2;
+    background-color: #2d394b;
+    color: #ffffff;
 }
+
 .align {
-  display: flex;
-  padding: 1rem;
+    display: flex;
+    padding: 1rem;
 }
 
 .center {
-  text-align: center;
-  letter-spacing: 5px;
+    text-align: center;
+    letter-spacing: 5px;
 }
+
+
+/* CSS card flip */
+
 .card {
-  border: 1.5px solid darkgrey;
-  margin: 1rem;
-  border-radius: 1rem;
+    perspective: 150rem;
+    position: relative;
+    height: 44rem;
+}
+
+.card-side {
+    height: 44rem;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.card-front {
+    background-color: #fff;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card-back-1 {
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+}
+
+.card-back-2 {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+
+.card-back-3 {
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+}
+
+.card:hover .card-front {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card-back {
+    transform: rotateY(0);
+}
+
+.card-heading {
+    padding: 3rem;
+}
+
+.card-details {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-details ul li {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.card-b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+.card-price-box {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8rem;
+}
+
+.price-only {
+    font-size: 2rem;
+}
+
+.price-value {
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.8rem 3rem;
+    background-color: #fff;
+    color: #777;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
+    cursor: pointer;
+    top: 32rem;
+    left: 6rem;
 }
 
 .right {
-  text-align: right;
-  padding: 1rem;
-  margin-right: 5rem;
+    text-align: right;
+    padding: 1rem;
+    margin-right: 5rem;
 }
+
 .text {
-  padding: 1.6rem;
+    padding: 1.6rem;
 }
+
 .hand {
-  font-size: 1.8rem;
-  color: #2d394b;
-  margin-right: 1rem;
+    font-size: 1.8rem;
+    color: #2d394b;
+    margin-right: 1rem;
 }
+
+
 /* DESTINATIONS SECTION RULES END */
 
+
 /* FOOTER RULES START HERE */
+
 .footer {
-  background-color: #11263a;
-  color: #ffffff;
-  padding: 3rem;
-  text-align: center;
+    background-color: #11263a;
+    color: #ffffff;
+    padding: 3rem;
+    text-align: center;
 }
+
 footer p {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
