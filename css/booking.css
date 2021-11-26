@@ -14,7 +14,7 @@ body {
   padding: 1rem 1rem;
 }
 
-.border {
+.form {
   display: grid;
   grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 2fr;
@@ -133,7 +133,7 @@ body {
   .header {
     display: block;
   }
-  .border {
+  .form {
     
     grid-template-columns: 1fr;
     margin: 1rem;
@@ -234,7 +234,7 @@ body {
   .header {
     display: block;
   }
-  .border {
+  .form {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     margin: 1rem;
@@ -337,7 +337,7 @@ body {
     padding: 1rem 1rem;
   }
 
-  .border {
+  .form {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -466,7 +466,7 @@ body {
     margin: 10px;
   }
   
-  .border {
+  .form {
     margin: 1rem 28rem;
   }
 }
