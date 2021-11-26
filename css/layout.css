@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Amita&family=Bitter&family=Lobster&family=Milonga&family=Montserrat+Alternates&display=swap");
+
 html {
   font-size: 62.5%;
 }
@@ -30,7 +31,7 @@ figure img {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 150px 150px 150px 3fr 50px 50px 50px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   margin: 0;
 }
@@ -38,18 +39,8 @@ figure img {
 .header > * {
   align-self: center;
 }
-
-.blue {
-  color: #282828;
-  padding-right: 3rem;
-  font-size: 2.5rem;
-}
-
-.header-text {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #000000;
-  text-decoration: none;
+.header p {
+  display: none;
 }
 
 #logo {
@@ -412,7 +403,33 @@ footer p {
 /* MEDIA QUERY RULES START HERE */
 
 @media only screen and (min-width: 426px) {
+  .header-text {
+    font-size: 1.2rem;
+  }
 }
 @media only screen and (min-width: 769px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 150px 150px 150px 3fr 50px 50px 50px;
+    grid-template-rows: auto;
+    margin: 0;
+  }
+  .header > * {
+    align-self: center;
+  }
+  .header p {
+    display: block;
+  }
+  .header-text {
+    color: black;
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+  .blue {
+    color: #282828;
+    width: 100px;
+  }
+  #logo {
+    width: 10rem;
+  }
 }
-
