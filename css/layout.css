@@ -223,6 +223,12 @@ figure img {
 .tour-text {}
 
 
+/* TOUR NAV BAR RULES END HERE */
+
+
+/* TOUR CARDS START HERE */
+
+
 /* TOUR CARDS END HERE*/
 
 
@@ -372,6 +378,14 @@ img {
     transform: rotateY(0);
 }
 
+.card-side-1 {
+    background-image: url('/images/colosseum.jpg') no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.card-img {}
+
 .card-heading {
     padding: 3rem;
 }
@@ -380,6 +394,7 @@ img {
     list-style: none;
     width: 80%;
     margin: 0 auto;
+    font-weight: 500;
 }
 
 .card-details ul li {
@@ -427,6 +442,9 @@ img {
     top: 32rem;
     left: 6rem;
 }
+
+
+/*  CSS CARD Flip end Here */
 
 .right {
     text-align: right;
