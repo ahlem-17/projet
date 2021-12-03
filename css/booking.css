@@ -128,6 +128,25 @@ body {
   font-weight: bold;
 }
 
+.myDiv-tour{
+  border: 1px solid lightgray;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+  color: grey;
+  
+ }
+
+ .myDiv-price{
+  border: 1px solid lightgray;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  font-family: sans-serif;
+  color: grey;
+ }
+
+
 @media only screen and (max-width: 426px) {
   /* Here need to change the header display */
   .header {
@@ -227,6 +246,16 @@ body {
     background-color: darkgrey;
     font-weight: bold;
   }
+
+  .myDiv-tour p {
+    font-size: 1.3rem;
+    margin-left: 5px;
+  }
+
+  .myDiv-price p {
+    font-size: 1.3rem;
+    margin-left: 5px;
+  }
 }
 
 @media only screen and (min-width: 426px) {
@@ -303,7 +332,8 @@ body {
   .align-to-eleventh {
     grid-row: 11/12;
     grid-column: 1/2;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 2.5rem;
   }
   .eleventh {
     grid-row: 12/13;
@@ -325,6 +355,81 @@ body {
     width: 98%;
   }
 }
+
+@media only screen and (min-width: 600px) {
+  .header {
+    display: block;
+  }
+
+  .form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .second-return {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+
+  .forth {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .fifth {
+    grid-row: 4/5;
+    grid-column: 1/2;
+  }
+
+  .sixth {
+    grid-row: 4/5;
+    grid-column: 2/3;
+  }
+
+  .seventh {
+    grid-row: 5/6;
+    grid-column: 1/2;
+  }
+  
+
+  .eighth {
+    grid-row: 5/6;
+    grid-column:2/3;
+  }
+
+  .ninth {
+    grid-row: 6/7;
+    grid-column: 1/2;
+  }
+
+  .tenth {
+    grid-row: 7/8;
+    grid-column: 1/3;
+    text-align: center;
+  }
+
+  .align-to-eleventh {
+    grid-row: 7/8;
+    grid-column: 1/3;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .eleventh {
+    grid-row: 8/9;
+    grid-column: 1/3;
+  }
+  
+  .myDiv-tour {
+    margin: 1rem 15rem;
+  }
+
+  .myDiv-price {
+    margin: 1rem 15rem;
+  }
+
+} 
 
 @media only screen and (min-width: 769px) {
   .header {
@@ -437,7 +542,7 @@ body {
     flex-wrap: wrap;
     grid-row: 4/6;
     grid-column: 3/4;
-    margin: 0 10rem;
+   
   }
 
   .submit {
@@ -449,6 +554,24 @@ body {
     background-color: darkgrey;
     font-weight: bold;
   }
+  .myDiv-tour{
+    border: 1px solid lightgray;
+    background-color: #FFFFFF;
+    padding: 6px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 1rem 3.5rem;
+   }
+
+   .myDiv-price{
+    border: 1px solid lightgray;
+    background-color: #FFFFFF;
+    padding: 6px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin: 0 3.5rem;
+   }
 }
 
 @media only screen and (max-width: 1363px) {
