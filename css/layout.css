@@ -28,32 +28,20 @@ figure img {
 
 /* GENERAL RULES FOR RESPONSIVE IMAGES END */
 
-/* HEADER NAV BAR RULES START HERE */
+/* HAMBURGER */
 
+.align-tour {
+  padding-left: 3rem;
+}
+.logo {
+  width: 5rem;
+}
+.nav-item {
+  font-weight: 600;
+}
 .header {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  margin: 0;
-}
-
-.header > * {
-  align-self: center;
-}
-
-.header p {
   display: none;
 }
-
-.social-media {
-  display: none;
-}
-
-#logo {
-  width: 10rem;
-}
-
-/* HEADER NAV BAR RULES END HERE */
 
 /* HERO SECTION STARTS HERE */
 
@@ -341,21 +329,6 @@ footer p {
 /* MEDIA QUERY RULES START HERE */
 
 @media only screen and (min-width: 426px) {
-  .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    margin: 0;
-  }
-  .header p {
-    display: block;
-  }
-  .header-text {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: black;
-    text-decoration: none;
-  }
   .main-image {
     /* height: 400px; */
     background-image: url("/images/backgrounds/machu-picchu-bg.png");
@@ -369,18 +342,51 @@ footer p {
 }
 
 @media only screen and (min-width: 769px) {
+  .navbar {
+    display: none;
+  }
+  /* HEADER NAV BAR RULES START HERE */
+
+  /* .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0;
+  } */
+
+  /* .header > * {
+    align-self: center;
+  }
+ */
+  /* .header p {
+    display: none;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  #logo {
+    width: 10rem;
+  } */
+
+  /* HEADER NAV BAR RULES END HERE */
+
   /* HEADER START */
   .header {
     display: grid;
     grid-template-columns: 1fr 150px 150px 150px 2fr 50px 50px 50px;
     grid-template-rows: auto;
     margin: 0;
+    gap: 1rem;
   }
   .header > * {
     align-self: center;
   }
   .header-text {
     font-size: 1.8rem;
+    text-decoration: none;
+    color: #282828;
   }
   #logo {
     width: 10rem;
