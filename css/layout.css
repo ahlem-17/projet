@@ -6,7 +6,7 @@ html {
 body {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 1.4rem;
-  line-height: 1.8;
+  line-height: 1.2;
   letter-spacing: 1px;
   margin-left: 0;
   margin-right: 0;
@@ -377,7 +377,7 @@ footer p {
   /* HEADER START */
   .header {
     display: grid;
-    grid-template-columns: 1fr 150px 150px 150px 2fr 50px 50px 50px;
+    grid-template-columns: 1fr 150px 150px 150px 1fr 50px 50px 50px;
     grid-template-rows: auto;
     margin: 0;
     gap: 1rem;
@@ -389,9 +389,12 @@ footer p {
     font-size: 1.8rem;
     text-decoration: none;
     color: #282828;
+    font-weight: 600;
+    padding-left: 0.5rem;
   }
   #logo {
-    width: 10rem;
+    width: 9rem;
+    padding: 1rem;
   }
   .social-media {
     display: block;
