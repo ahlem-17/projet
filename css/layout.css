@@ -29,7 +29,9 @@ figure img {
 /* GENERAL RULES FOR RESPONSIVE IMAGES END */
 
 /* HAMBURGER */
-
+.nav-bar {
+  background-color: white;
+}
 .align-tour {
   padding-left: 3rem;
 }
