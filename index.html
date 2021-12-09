@@ -7,570 +7,395 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>7 wonders - home</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <figure id="logo">
+    <!-- <div class="container"> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light adjusted">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="#">7 wonders</a> -->
+              <figure class="logo">
                 <a href="./"><img src="./images/logo_travel.gif" alt="" /></a>
             </figure>
-            <p><a href="#tours-nav" class="header-text">Adventures</a></p>
-            <p>
-                <a href="./booking/" class="header-text">Booking</a>
-            </p>
-            <p>
-                <a href="./reviews/" class="header-text">Reviews</a>
-            </p>
-            <p></p>
-            <p>
-                <a href="https://fi-fi.facebook.com/">
-                    <span class="blue fab fa-facebook"></span
-          ></a>
+    
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">Adventures
+                    <!-- <a class="nav-link" href="#">Adventures</a> -->
+                  </li>
+                  <li class="nav-item align-tour">
+                    <a class="nav-link" href="#chichen-itza">Chichén Itzá</a>
+                  </li>
+                  <li class="nav-item align-tour">
+                    <a class="nav-link" href="#colosseum">Colosseum</a>
+                  </li>
+                  <li class="nav-item align-tour">
+                    <a class="nav-link" href="#redeemer">Christ the Redeemer</a>
+                  </li>
+                  <li class="nav-item align-tour">
+                    <a class="nav-link" href="#machu-picchu">Machu Picchu</a>
+                  </li>
+                  <li class="nav-item align-tour">
+                    <a class="nav-link" href="#petra">The Ancient City of Petra</a>
+                  </li>
+                  <li class="nav-item align-tour">
+                    <a class="nav-link" href="#tajmahal">Taj Mahal</a>
+                  </li>
+                  <li class="nav-item align-tour">
+                    <a class="nav-link" href="#wall">Great Wall of China</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./booking/">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+              
+        <header class="header">
+        <figure id="logo">
+            <a href="./"><img src="./images/logo_travel.gif" alt="" /></a>
+        </figure>
+        <p class="header-p-text">
+            <a href="#tours-nav" class="header-text">Adventures</a>
         </p>
         <p>
-          <a href=""><span class="blue fab fa-twitter"></span></a>
-            </p>
-            <p>
-                <a href=""> <span class="blue fab fa-instagram"></span></a>
-            </p>
-        </header>
+            <a href="./booking/" class="header-text">Booking</a>
+        </p>
+        <p>
+            <a href="./reviews/" class="header-text">Reviews</a>
+        </p>
+        <p></p>
+        <figure class="social-media"><a href="https://fi-fi.facebook.com/"><span class="blue fab fa-facebook"></span></a>
+        </figure>
+        <figure class="social-media"><a href=""><span class="blue fab fa-twitter"></span></a></figure>
+        <figure class="social-media">
+            <a href=""> <span class="blue fab fa-instagram"></span></a>
+        </figure>
+    </header>
 
-      <section class="main-image flex-center">
+    <section class="main-image flex-center">
         <h1 class="main-image-text">Seven wonders</h1>
-        <p class="main-image-text smaller">Your next adevnture starts here</p>
-      </section>
+        <p class="main-image-text smaller">Your next adventure starts here</p>
+    </section>
+    <div class="nav-grid">
 
-      <section class="tour-nav-container">
-        <nav id="tours-nav">
-          <ul class="nav-grid">
-            <li><p></p></li>
-            <li class="img-container">
-              <a href="#chichenitcha">
-                <img
-                  src="./images/icons/chichenitcha-icon-transparent.png"
-                  class="nav-icon"
-                  alt="chichenitcha-icon"
-                />
-                <div class="middle">
-                  <span class="icon-text">Chichén Itzá</span>
-                </div>
-              </a>
-            </li>
-            <li class="img-container">
-              <a href="#colosseum">
-                <img
-                  src="./images/icons/colosseum-icon-transparent.png"
-                  class="nav-icon"
-                  alt="colosseum-icon"
-                />
-                <div class="middle">
-                  <span class="icon-text">Colosseum</span>
-                </div>
-              </a>
-            </li>
-            <li class="img-container">
-              <a href="#jesus">
-                <img
-                  src="./images/icons/jesus-icon-transparent.png"
-                  class="nav-icon"
-                  alt="jesus-icon"
-                />
-                <div class="middle">
-                  <span class="icon-text">Christ the Redeemer</span>
-                </div>
-              </a>
-            </li>
-            <li class="img-container">
-              <a href="#machu-picchu">
-                <img
-                  src="./images/icons/machupicchu-icon-transparent.png"
-                  class="nav-icon"
-                  alt="machupicchu-icon"
-                />
-                <div class="middle">
-                  <span class="icon-text">Machu Picchu</span>
-                </div>
-              </a>
-            </li>
-            <li class="img-container">
-              <a href="#petra">
-                <img
-                  src="./images/icons/petra-icon-transparent.png"
-                  class="nav-icon"
-                  alt="petra-icon"
-                />
-                <div class="middle">
-                  <span class="icon-text">The Ancient City of Petra</span>
-                </div>
-              </a>
-            </li>
-            <li class="img-container">
-              <a href="#tajmahal">
-                <img
-                  src="./images/icons/tajmahal-icon-transparent.png"
-                  class="nav-icon"
-                  alt="tajmahal-icon"
-                />
-                <div class="middle">
-                  <span class="icon-text">Taj Mahal</span>
-                </div>
-              </a>
-            </li>
-            <li class="img-container">
-              <a href="#wall-china">
-                <img
-                  src="./images/icons/wallchina-icon-transparent.png"
-                  class="nav-icon"
-                  alt="wallofchina-icon"
-                />
-                <div class="middle">
-                  <span class="icon-text">Great wall of China</span>
-                </div>
-              </a>
-            </li>
-            <li><p></p></li>
-          </ul>
-        </nav>
-      </section>
-      
-        <section id="chichenitcha">
-            <section class="tours">
-                <h2 class="tours-h2">Chichén Itzá</h2>
-                <p class="tour-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae omnis, quasi error pariatur minus nulla maxime quibusdam consequuntur odit ipsum laboriosam voluptatem illo dolorum hic perferendis quisquam ad temporibus! Rerum repudiandae tempora corporis
-                    quis, velit ad, laudantium est odit numquam praesentium suscipit iste vel blanditiis, eius consectetur nihil. Nulla reprehenderit quas nam molestias doloremque ea distinctio beatae porro ab? Provident minima, sed sit excepturi debitis
-                    delectus dolorum perferendis alias ea nam. Ipsum voluptates neque amet aperiam, ipsam soluta! Earum, obcaecati? Nesciunt omnis quaerat distinctio minus ad repellendus non suscipit. Suscipit, saepe architecto optio ad aut facilis consequuntur
-                    iure corporis quia aliquid repellendus aspernatur eius temporibus quo sunt harum provident. Numquam facere porro reprehenderit eius quia quos adipisci consectetur dolores. Ipsam maxime molestias quod dolorum sit, labore mollitia nisi
-                    incidunt consectetur? Praesentium, harum nihil vel officiis ullam recusandae vitae. Mollitia, eligendi quasi adipisci nobis perferendis accusantium facere deserunt repudiandae ad? Placeat eligendi aspernatur culpa illum, omnis odio
-                    blanditiis dolorem, perferendis facere laborum ipsum? Neque numquam voluptatibus nam similique pariatur deserunt, odit repudiandae dolores ratione labore deleniti aspernatur! Dolore, quaerat inventore?
-                </p>
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                        <img src="images/image1.jpeg" alt="image 1" style="width: 100%" />
+        <button class="tour-btn tours__tab tours__tab--1" data-tab="1">
+                    <figure class="image-bg"><img src="./images/icons/chichenitcha-icon-transparent.png" alt="chichenitcha-icon" class="image-tour" /></figure>
+                    <span class="icon-text">Chichén Itzá</span>
+                </button>
+        <button class="tour-btn tours__tab tours__tab--2" data-tab="2">
+                    <figure class="image-bg"><img src="./images/icons/colosseum-icon-transparent.png" alt="colosseum-icon" class="image-tour" /></figure>
+                    <span class="icon-text">Colosseum</span>
+                </button>
+        <button class="tour-btn tours__tab tours__tab--3" data-tab="3">
+                    <figure class="image-bg"><img src="./images/icons/jesus-icon-transparent.png" alt="jesus-icon" class="image-tour" /></figure>
+                    <span class="icon-text">Christ the Redeemer</span>
+                </button>
+        <button class="tour-btn tours__tab tours__tab--4" data-tab="4">
+                    <figure class="image-bg"><img src="./images/icons/machupicchu-icon-transparent.png" alt="machupicchu-icon" class="image-tour" /></figure>
+                    <span class="icon-text">Machu Picchu</span>
+                </button>
+        <button class="tour-btn tours__tab tours__tab--5" data-tab="5">
+                    <figure class="image-bg"><img src="./images/icons/petra-icon-transparent.png" alt="petra-icon" class="image-tour" /></figure>
+                    <span class="icon-text">The Ancient City of Petra</span>
+                </button>
+        <button class="tour-btn tours__tab tours__tab--6" data-tab="6">
+                    <figure class="image-bg"><img src="./images/icons/tajmahal-icon-transparent.png" alt="tajmahal-icon" class="image-tour" /></figure>
+                    <span class="icon-text">Taj Mahal</span>
+                </button>
+        <button class="tour-btn tours__tab tours__tab--7" data-tab="7">
+                    <figure class="image-bg"><img src="./images/icons/wallchina-icon-transparent.png" alt="wallofchina-icon" class="image-tour" /></figure>
+                    <span class="icon-text">Great wall of China</span>
+                </button>
+    </div>
+    <div class="tours">
+        <!-- <div class="tours__tab-container"> -->
+
+
+
+        <div id="chichen-itza" class="tours__content tours__content--1 tours__content--active">
+            <h2 class="tours-h2">Chichén Itzá</h2>
+            <p class="tour-text">
+                Chichen Itza was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality, Yucatán State, Mexico.
+            </p>
+            <div class="imgTour">
+
+                <img class="tour-img tour1" src="./images/Chichen Itza.jpeg" alt="">
+                <img class="tour-img tour2" src="./images/Chichen Itza2.jpeg" alt="">
+                <img class="tour-img tour3" src="./images/Chichen Itza3.jpeg" alt="">
+            </div>
+
+            <button class="btn-content">Book Now!</button>
+        </div>
+        
+        <div id="colosseum" class="tours__content tours__content--2">
+            <h2 class="tours-h2">Colosseum</h2>
+            <p class="tour-text">
+                The Colosseum Italian: Colosseo is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite
+                its age.
+            </p>
+            <div class="imgTour">
+                <img class="tour-img tour1" src="./images/Colosseum.jpeg" alt="">
+                <img class="tour-img tour2" src="./images/Colosseum1.jpeg" alt="">
+                <img class="tour-img tour3" src="./images/Colosseum3.jpeg" alt="">
+            </div> <button class="btn-content">Book Now!</button>
+        </div>
+
+
+
+        <div id="redeemer" class="tours__content tours__content--3">
+            <h2 class="tours-h2">Christ the Redeemer</h2>
+            <p class="tour-text">
+                Christ the Redeemer (Portuguese: Cristo Redentor, standard Brazilian Portuguese, local pronunciation is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva
+                Costa.
+            </p>
+            <div class="imgTour">
+                <img class="tour-img tour1" src="./images/Christ the Redeemer.jpeg" alt="">
+                <img class="tour-img tour2" src="./images/Christ the Redeemer2.jfif" alt="">
+                <img class="tour-img tour3" src="./images/Christ the Redeemer3.jpeg" alt="">
+            </div> <button class="btn-content">Book Now!</button>
+        </div>
+
+
+        <div id="machu-picchu" class="tours__content tours__content--4">
+            <h2 class="tours-h2">Machu Picchu</h2>
+            <p class="tour-text">
+                Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge. It is located in the Machupicchu District within Urubamba Province above the Sacred Valley, which is 80 kilometers
+                northwest of Cuzco.
+            </p>
+            <div class="imgTour">
+                <img class="tour-img tour1" src="./images/Machu.jpeg" alt="">
+                <img class="tour-img tour2" src="./images/Machu2.jpeg" alt="">
+                <img class="tour-img tour3" src="./images/Machu3.jpeg" alt="">
+            </div> <button class="btn-content">Book Now!</button>
+        </div>
+
+        <div id="petra" class="tours__content tours__content--5">
+            <h2 class="tours-h2">Ancient City of Petra</h2>
+            <p class="tour-text">
+                Petra romanized: Al-Batrāʾ; Ancient Greek: Πέτρα, "Rock", originally known to its inhabitants as Raqmu or Raqēmōis an historic and archaeological city in southern Jordan. It is adjacent to the mountain of Jabal Al-Madbah.
+            </p>
+            <div class="imgTour">
+                <img class="tour-img tour1" src="./images/Ancient City of Petra.jpeg" alt="">
+                <img class="tour-img tour2" src="./images/Ancient City of Petra2.jpeg" alt="">
+                <img class="tour-img tour3" src="./images/Ancient City of Petra3.jpeg" alt="">
+            </div>
+            <button class="btn-content">Book Now!</button>
+        </div>
+
+        <div id="tajmahal" class="tours__content tours__content--6">
+            <h2 class="tours-h2">Taj Mahal</h2>
+            <p class="tour-text">
+                The Taj Mahal lit. 'Crown of the Palace', is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra.
+            </p>
+            <div class="imgTour">
+                <img class="tour-img tour1" src="./images/Taj Mahal.jpeg" alt="">
+                <img class="tour-img tour2" src="./images/Taj Mahal2.jpeg" alt="">
+                <img class="tour-img tour3" src="./images/Taj Mahal3.jpeg" alt="">
+            </div> <button class="btn-content">Book Now!</button>
+
+        </div>
+        <div id="wall" class="tours__content tours__content--7">
+            <h2 class="tours-h2">Wall of China</h2>
+            <p class="tour-text">
+                The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Stepp
+            </p>
+            <div class="imgTour">
+                <img class="tour-img tour1" src="./images/Wall of China.jpeg" alt="">
+                <img class="tour-img tour2" src="./images/Wall of China2.jpeg" alt="">
+                <img class="tour-img tour3" src="./images/Wall of China3.jpeg" alt="">
+            </div> <button class="btn-content">Book Now!</button>
+        </div>
+
+    </div>
+
+    <h1 id="destination" class="center">Our Destinations</h1>
+    <div class="flex1">
+        <div class="card">
+            <div class="card-side card-front">
+                <figure>
+                    <img src="./images/giza.jpg" alt="" />
+                </figure>
+                <h3 class="card-heading">Tour 1</h3>
+                <ul class="card-details">
+                    <li>3 days tours</li>
+                    <hr />
+                    <li>Up to 15 people</li>
+                    <hr />
+                    <li>Hotel</li>
+                    <hr />
+                    <li>Dfficulty: easy</li>
+                </ul>
+
+            </div>
+            <div class="card-side card-back card-back-1">
+                <div class="card-b">
+                    <div class="card-price-box">
+                        <p class="price-only">Only</p>
+                        <p class="price-value">250 Euroa</p>
                     </div>
-                    <div class="mySlides fade">
-                        <img src="images/image3.jpeg" alt="image 1" style="width: 100%" />
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="images/image2.jpeg" alt="image 2" style="width: 100%" />
-                    </div>
-                    <br />
-                    <div style="text-align: center">
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
+                </div>
+                <a href="" class="btn">Book now!</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-side card-front">
+                <figure>
+                    <img src="./images/giza.jpg" alt="" />
+                </figure>
+                <h3 class="card-heading">Tour 1</h3>
+                <ul class="card-details">
+                    <li>3 days tours</li>
+                    <hr />
+                    <li>Up to 15 people</li>
+                    <hr />
+                    <li>Hotel</li>
+                    <hr />
+                    <li>Dfficulty: easy</li>
+                </ul>
+            </div>
+
+            <div class="card-side card-back card-back-2">
+                <div class="card-b">
+                    <div class="card-price-box">
+                        <p class="price-only">Only</p>
+                        <p class="price-value">250 Euroa</p>
                     </div>
                 </div>
-            </section>
-        </section>
+                <a href="" class="btn">Book now!</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-side card-front">
+                <figure>
+                    <img src="./images/giza.jpg" alt="" />
+                </figure>
+                <h3 class="card-heading">Tour 1</h3>
+                <ul class="card-details">
+                    <li>3 days tours</li>
+                    <hr />
+                    <li>Up to 15 people</li>
+                    <hr />
 
-      <section id="colosseum">
-        <section class="tours">
-          <h2 class="tours-h2">Colosseum</h2>
-          <p class="tour-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae
-            omnis, quasi error pariatur minus nulla maxime quibusdam
-            consequuntur odit ipsum laboriosam voluptatem illo dolorum hic
-            perferendis quisquam ad temporibus! Rerum repudiandae tempora
-            corporis quis, velit ad, laudantium est odit numquam praesentium
-            suscipit iste vel blanditiis, eius consectetur nihil. Nulla
-            reprehenderit quas nam molestias doloremque ea distinctio beatae
-            porro ab? Provident minima, sed sit excepturi debitis delectus
-            dolorum perferendis alias ea nam. Ipsum voluptates neque amet
-            aperiam, ipsam soluta! Earum, obcaecati? Nesciunt omnis quaerat
-            distinctio minus ad repellendus non suscipit. Suscipit, saepe
-            architecto optio ad aut facilis consequuntur iure corporis quia
-            aliquid repellendus aspernatur eius temporibus quo sunt harum
-            provident. Numquam facere porro reprehenderit eius quia quos
-            adipisci consectetur dolores. Ipsam maxime molestias quod dolorum
-            sit, labore mollitia nisi incidunt consectetur? Praesentium, harum
-            nihil vel officiis ullam recusandae vitae. Mollitia, eligendi quasi
-            adipisci nobis perferendis accusantium facere deserunt repudiandae
-            ad? Placeat eligendi aspernatur culpa illum, omnis odio blanditiis
-            dolorem, perferendis facere laborum ipsum? Neque numquam
-            voluptatibus nam similique pariatur deserunt, odit repudiandae
-            dolores ratione labore deleniti aspernatur! Dolore, quaerat
-            inventore?
-          </p>
-          <div class="slideshow-container">
-            <div class="mySlides fade">
-              <img src="images/image1.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image3.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image2.jpeg" alt="image 2" style="width: 100%" />
-            </div>
-            <br />
-            <div style="text-align: center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section id="jesus">
-        <section class="tours">
-          <h2 class="tours-h2">Christ the Redeemer</h2>
-          <p class="tour-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae
-            omnis, quasi error pariatur minus nulla maxime quibusdam
-            consequuntur odit ipsum laboriosam voluptatem illo dolorum hic
-            perferendis quisquam ad temporibus! Rerum repudiandae tempora
-            corporis quis, velit ad, laudantium est odit numquam praesentium
-            suscipit iste vel blanditiis, eius consectetur nihil. Nulla
-            reprehenderit quas nam molestias doloremque ea distinctio beatae
-            porro ab? Provident minima, sed sit excepturi debitis delectus
-            dolorum perferendis alias ea nam. Ipsum voluptates neque amet
-            aperiam, ipsam soluta! Earum, obcaecati? Nesciunt omnis quaerat
-            distinctio minus ad repellendus non suscipit. Suscipit, saepe
-            architecto optio ad aut facilis consequuntur iure corporis quia
-            aliquid repellendus aspernatur eius temporibus quo sunt harum
-            provident. Numquam facere porro reprehenderit eius quia quos
-            adipisci consectetur dolores. Ipsam maxime molestias quod dolorum
-            sit, labore mollitia nisi incidunt consectetur? Praesentium, harum
-            nihil vel officiis ullam recusandae vitae. Mollitia, eligendi quasi
-            adipisci nobis perferendis accusantium facere deserunt repudiandae
-            ad? Placeat eligendi aspernatur culpa illum, omnis odio blanditiis
-            dolorem, perferendis facere laborum ipsum? Neque numquam
-            voluptatibus nam similique pariatur deserunt, odit repudiandae
-            dolores ratione labore deleniti aspernatur! Dolore, quaerat
-            inventore?
-          </p>
-          <div class="slideshow-container">
-            <div class="mySlides fade">
-              <img src="images/image1.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image3.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image2.jpeg" alt="image 2" style="width: 100%" />
-            </div>
-            <br />
-            <div style="text-align: center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section id="machu-picchu">
-        <section class="tours">
-          <h2 class="tours-h2">Machu</h2>
-          <p class="tour-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae
-            omnis, quasi error pariatur minus nulla maxime quibusdam
-            consequuntur odit ipsum laboriosam voluptatem illo dolorum hic
-            perferendis quisquam ad temporibus! Rerum repudiandae tempora
-            corporis quis, velit ad, laudantium est odit numquam praesentium
-            suscipit iste vel blanditiis, eius consectetur nihil. Nulla
-            reprehenderit quas nam molestias doloremque ea distinctio beatae
-            porro ab? Provident minima, sed sit excepturi debitis delectus
-            dolorum perferendis alias ea nam. Ipsum voluptates neque amet
-            aperiam, ipsam soluta! Earum, obcaecati? Nesciunt omnis quaerat
-            distinctio minus ad repellendus non suscipit. Suscipit, saepe
-            architecto optio ad aut facilis consequuntur iure corporis quia
-            aliquid repellendus aspernatur eius temporibus quo sunt harum
-            provident. Numquam facere porro reprehenderit eius quia quos
-            adipisci consectetur dolores. Ipsam maxime molestias quod dolorum
-            sit, labore mollitia nisi incidunt consectetur? Praesentium, harum
-            nihil vel officiis ullam recusandae vitae. Mollitia, eligendi quasi
-            adipisci nobis perferendis accusantium facere deserunt repudiandae
-            ad? Placeat eligendi aspernatur culpa illum, omnis odio blanditiis
-            dolorem, perferendis facere laborum ipsum? Neque numquam
-            voluptatibus nam similique pariatur deserunt, odit repudiandae
-            dolores ratione labore deleniti aspernatur! Dolore, quaerat
-            inventore?
-          </p>
-          <div class="slideshow-container">
-            <div class="mySlides fade">
-              <img src="images/image1.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image3.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image2.jpeg" alt="image 2" style="width: 100%" />
-            </div>
-            <br />
-            <div style="text-align: center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section id="petra">
-        <section class="tours">
-          <h2 class="tours-h2">Ancient City of Petra</h2>
-          <p class="tour-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae
-            omnis, quasi error pariatur minus nulla maxime quibusdam
-            consequuntur odit ipsum laboriosam voluptatem illo dolorum hic
-            perferendis quisquam ad temporibus! Rerum repudiandae tempora
-            corporis quis, velit ad, laudantium est odit numquam praesentium
-            suscipit iste vel blanditiis, eius consectetur nihil. Nulla
-            reprehenderit quas nam molestias doloremque ea distinctio beatae
-            porro ab? Provident minima, sed sit excepturi debitis delectus
-            dolorum perferendis alias ea nam. Ipsum voluptates neque amet
-            aperiam, ipsam soluta! Earum, obcaecati? Nesciunt omnis quaerat
-            distinctio minus ad repellendus non suscipit. Suscipit, saepe
-            architecto optio ad aut facilis consequuntur iure corporis quia
-            aliquid repellendus aspernatur eius temporibus quo sunt harum
-            provident. Numquam facere porro reprehenderit eius quia quos
-            adipisci consectetur dolores. Ipsam maxime molestias quod dolorum
-            sit, labore mollitia nisi incidunt consectetur? Praesentium, harum
-            nihil vel officiis ullam recusandae vitae. Mollitia, eligendi quasi
-            adipisci nobis perferendis accusantium facere deserunt repudiandae
-            ad? Placeat eligendi aspernatur culpa illum, omnis odio blanditiis
-            dolorem, perferendis facere laborum ipsum? Neque numquam
-            voluptatibus nam similique pariatur deserunt, odit repudiandae
-            dolores ratione labore deleniti aspernatur! Dolore, quaerat
-            inventore?
-          </p>
-          <div class="slideshow-container">
-            <div class="mySlides fade">
-              <img src="images/image1.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image3.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image2.jpeg" alt="image 2" style="width: 100%" />
-            </div>
-            <br />
-            <div style="text-align: center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section id="tajmahal">
-        <section class="tours">
-          <h2 class="tours-h2">Taj Mahal</h2>
-          <p class="tour-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae
-            omnis, quasi error pariatur minus nulla maxime quibusdam
-            consequuntur odit ipsum laboriosam voluptatem illo dolorum hic
-            perferendis quisquam ad temporibus! Rerum repudiandae tempora
-            corporis quis, velit ad, laudantium est odit numquam praesentium
-            suscipit iste vel blanditiis, eius consectetur nihil. Nulla
-            reprehenderit quas nam molestias doloremque ea distinctio beatae
-            porro ab? Provident minima, sed sit excepturi debitis delectus
-            dolorum perferendis alias ea nam. Ipsum voluptates neque amet
-            aperiam, ipsam soluta! Earum, obcaecati? Nesciunt omnis quaerat
-            distinctio minus ad repellendus non suscipit. Suscipit, saepe
-            architecto optio ad aut facilis consequuntur iure corporis quia
-            aliquid repellendus aspernatur eius temporibus quo sunt harum
-            provident. Numquam facere porro reprehenderit eius quia quos
-            adipisci consectetur dolores. Ipsam maxime molestias quod dolorum
-            sit, labore mollitia nisi incidunt consectetur? Praesentium, harum
-            nihil vel officiis ullam recusandae vitae. Mollitia, eligendi quasi
-            adipisci nobis perferendis accusantium facere deserunt repudiandae
-            ad? Placeat eligendi aspernatur culpa illum, omnis odio blanditiis
-            dolorem, perferendis facere laborum ipsum? Neque numquam
-            voluptatibus nam similique pariatur deserunt, odit repudiandae
-            dolores ratione labore deleniti aspernatur! Dolore, quaerat
-            inventore?
-          </p>
-          <div class="slideshow-container">
-            <div class="mySlides fade">
-              <img src="images/image1.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image3.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image2.jpeg" alt="image 2" style="width: 100%" />
-            </div>
-            <br />
-            <div style="text-align: center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section id="wall-china">
-        <section class="tours">
-          <h2 class="tours-h2">Wall of China</h2>
-          <p class="tour-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae
-            omnis, quasi error pariatur minus nulla maxime quibusdam
-            consequuntur odit ipsum laboriosam voluptatem illo dolorum hic
-            perferendis quisquam ad temporibus! Rerum repudiandae tempora
-            corporis quis, velit ad, laudantium est odit numquam praesentium
-            suscipit iste vel blanditiis, eius consectetur nihil. Nulla
-            reprehenderit quas nam molestias doloremque ea distinctio beatae
-            porro ab? Provident minima, sed sit excepturi debitis delectus
-            dolorum perferendis alias ea nam. Ipsum voluptates neque amet
-            aperiam, ipsam soluta! Earum, obcaecati? Nesciunt omnis quaerat
-            distinctio minus ad repellendus non suscipit. Suscipit, saepe
-            architecto optio ad aut facilis consequuntur iure corporis quia
-            aliquid repellendus aspernatur eius temporibus quo sunt harum
-            provident. Numquam facere porro reprehenderit eius quia quos
-            adipisci consectetur dolores. Ipsam maxime molestias quod dolorum
-            sit, labore mollitia nisi incidunt consectetur? Praesentium, harum
-            nihil vel officiis ullam recusandae vitae. Mollitia, eligendi quasi
-            adipisci nobis perferendis accusantium facere deserunt repudiandae
-            ad? Placeat eligendi aspernatur culpa illum, omnis odio blanditiis
-            dolorem, perferendis facere laborum ipsum? Neque numquam
-            voluptatibus nam similique pariatur deserunt, odit repudiandae
-            dolores ratione labore deleniti aspernatur! Dolore, quaerat
-            inventore?
-          </p>
-          <div class="slideshow-container">
-            <div class="mySlides fade">
-              <img src="images/image1.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image3.jpeg" alt="image 1" style="width: 100%" />
-            </div>
-            <div class="mySlides fade">
-              <img src="images/image2.jpeg" alt="image 2" style="width: 100%" />
-            </div>
-            <br />
-            <div style="text-align: center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-          </div>
-        </section>
-      </section>
-      <h1 id="destination" class="center">Our Destinations</h1>
-      <div class="flex1">
-          <div class="card">
-              <div class="card-side card-front">
-                  <figure>
-                      <img src="./images/giza.jpg" alt="" />
-                  </figure>
-                  <h3 class="card-heading">Tour 1</h3>
-                  <ul class="card-details">
-                      <li>3 days tours</li>
-                      <hr />
-                      <li>Up to 15 people</li>
-                      <hr />
-                      <li>Hotel</li>
-                      <hr />
-                      <li>Dfficulty: easy</li>
-                  </ul>
+                    <li>Hotel</li>
+                    <hr />
 
-              </div>
-              <div class="card-side card-back card-back-1">
-                  <div class="card-b">
-                      <div class="card-price-box">
-                          <p class="price-only">Only</p>
-                          <p class="price-value">250 Euroa</p>
-                      </div>
-                  </div>
-                  <a href="" class="btn">Book now!</a>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-side card-front">
-                  <figure>
-                      <img src="./images/giza.jpg" alt="" />
-                  </figure>
-                  <h3 class="card-heading">Tour 1</h3>
-                  <ul class="card-details">
-                      <li>3 days tours</li>
-                      <hr />
-                      <li>Up to 15 people</li>
-                      <hr />
-                      <li>Hotel</li>
-                      <hr />
-                      <li>Dfficulty: easy</li>
-                  </ul>
-              </div>
+                    <li>Dfficulty: easy</li>
+                </ul>
+            </div>
 
-              <div class="card-side card-back card-back-2">
-                  <div class="card-b">
-                      <div class="card-price-box">
-                          <p class="price-only">Only</p>
-                          <p class="price-value">250 Euroa</p>
-                      </div>
-                  </div>
-                  <a href="" class="btn">Book now!</a>
-              </div>
-          </div>
+            <div class="card-side card-back card-back-3">
+                <div class="card-b">
+                    <div class="card-price-box">
+                        <p class="price-only">Only</p>
+                        <p class="price-value">250 Euroa</p>
 
-
-            <div class="card">
-                <div class="card-side card-front">
-                    <figure>
-                        <img src="./images/giza.jpg" alt="" />
-                    </figure>
-                    <h3 class="card-heading">Tour 1</h3>
-                    <ul class="card-details">
-                        <li>3 days tours</li>
-                        <hr />
-                        <li>Up to 15 people</li>
-                        <hr />
-
-                        <li>Hotel</li>
-                        <hr />
-
-                        <li>Dfficulty: easy</li>
-                    </ul>
+                    </div>
+                    <div class="card-side card-back card-back-1">
+                        <div class="card-b">
+                            <div class="card-price-box">
+                                <p class="price-only">Only</p>
+                                <p class="price-value">250 Euroa</p>
+                            </div>
+                        </div>
+                        <a href="" class="btn">Book now!</a>
+                    </div>
                 </div>
+                <div class="card">
+                    <div class="card-side card-front">
+                        <figure>
+                            <img src="./images/giza.jpg" alt="" />
+                        </figure>
+                        <h3 class="card-heading">Tour 1</h3>
+                        <ul class="card-details">
+                            <li>3 days tours</li>
+                            <hr />
+                            <li>Up to 15 people</li>
+                            <hr />
+                            <li>Hotel</li>
+                            <hr />
+                            <li>Dfficulty: easy</li>
+                        </ul>
+                    </div>
 
-                <div class="card-side card-back card-back-3">
-                    <div class="card-b">
-                        <div class="card-price-box">
-                            <p class="price-only">Only</p>
-                            <p class="price-value">250 Euroa</p>
+                    <div class="card-side card-back card-back-2">
+                        <div class="card-b">
+                            <div class="card-price-box">
+                                <p class="price-only">Only</p>
+                                <p class="price-value">250 Euroa</p>
+                            </div>
+
                         </div>
                     </div>
                     <a href="" class="btn">Book now!</a>
                 </div>
             </div>
-          </div>
+        </div>
 
 
-        <section id="second">
-            <h2>Reviews</h2>
-            <container class="align">
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae porro sed obcaecati ea distinctio minima officia! Reprehenderit doloribus a sunt labore dicta eos, laboriosam sint accusantium neque hic itaque expedita.
-                </p>
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae porro sed obcaecati ea distinctio minima officia! Reprehenderit doloribus a sunt labore dicta eos, laboriosam sint accusantium neque hic itaque expedita.
-                </p>
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae porro sed obcaecati ea distinctio minima officia! Reprehenderit doloribus a sunt labore dicta eos, laboriosam sint accusantium neque hic itaque expedita.
-                </p>
-            </container>
-        </section>
-        <hr />
-
-        <section id="third">
-            <h2>Contact Us</h2>
-            <p><span class="blue fas fa-phone-alt"></span> +358 401 234 567</p>
-            <p><span class="blue fas fa-envelope"></span>info.@yahoo.com</p>
-            <p>
-                <span class="blue fas fa-location-arrow"></span> 0123 Helsinki, Finland
-            </p>
-        </section>
-      </div>
-
-        <footer class="footer">
-            <p>&copy 2021 Company name. All rights reserved.</p>
-        </footer>
     </div>
-    <script src="js/slideshow.js"></script>
+
+
+
+    <!-- <section id="second">
+        <h2>Reviews</h2>
+        <container class="align">
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae porro sed obcaecati ea distinctio minima officia! Reprehenderit doloribus a sunt labore dicta eos, laboriosam sint accusantium neque hic itaque expedita.
+            </p>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae porro sed obcaecati ea distinctio minima officia! Reprehenderit doloribus a sunt labore dicta eos, laboriosam sint accusantium neque hic itaque expedita.
+            </p>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae porro sed obcaecati ea distinctio minima officia! Reprehenderit doloribus a sunt labore dicta eos, laboriosam sint accusantium neque hic itaque expedita.
+            </p>
+        </container>
+    </section>
+    <hr />
+ -->
+    <section id="third">
+        <h2>Contact Us</h2>
+        <p><span class="blue fas fa-phone-alt"></span> +358 401 234 567</p>
+        <p><span class="blue fas fa-envelope"></span>info.@yahoo.com</p>
+        <p>
+            <span class="blue fas fa-location-arrow"></span> 0123 Helsinki, Finland
+        </p>
+    </section>
+    <!-- </div> -->
+    </section>
+    <!-- </div> -->
+
+
+    <footer class="footer">
+        <p>&copy 2021 Company name. All rights reserved.</p>
+    </footer>
+    </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+    <script src="js/tour.js"></script>
 </body>
 
 </html>
