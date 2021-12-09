@@ -93,52 +93,211 @@
     /* SLIDESHOW RULES */
     /* .mySlides {
   display: none;
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Bitter&family=Lobster&family=Milonga&family=Montserrat+Alternates&display=swap");
+html {
+    font-size: 62.5%;
 }
 
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.container {
+    box-sizing: border-box;
 }
 
-.active {
-  background-color: #717171;
-}
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-} */
+/* GENERAL RULES FOR RESPONSIVE IMAGES START */
+    
+    figure {
+        display: block;
+    }
+    
+    figure img {
+        max-width: 100%;
+    }
+    /* GENERAL RULES FOR RESPONSIVE IMAGES END */
+    /* HEADER NAV BAR RULES START HERE */
+    
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 0;
+    }
+    
+    .header>* {
+        align-self: center;
+    }
+    
+    .header p {
+        display: none;
+    }
+    
+    .social-media {
+        display: none;
+    }
+    
+    #logo {
+        width: 10rem;
+    }
+    /* HEADER NAV BAR RULES END HERE */
+    /* HERO SECTION STARTS HERE */
+    
+    .main-image {
+        height: 300px;
+        max-width: 100%;
+        background-image: url("/images/backgrounds/machu-picchu-mobile-bg.png");
+        background-size: cover;
+        vertical-align: middle;
+        background-position: center;
+        margin-bottom: 2rem;
+    }
+    
+    .flex-center {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-image-text {
+        text-align: center;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-size: 3rem;
+        font-weight: 1000;
+        color: white;
+        text-shadow: 0 0 5px #000000;
+        margin: 0;
+    }
+    
+    .smaller {
+        font-size: 2rem;
+    }
+    /* HERO SECTION RULES END HERE */
+    /* TOUR NAV BAR RULES STARTS HERE */
+    /* TOUR NAV BAR RULES END HERE */
+    
+    .tours {
+        max-width: 100rem;
+        margin: 12rem auto 0 auto;
+        background-color: #fff;
+    }
+    /* TOUR NAV BAR RULES END HERE */
+    
+    .tours__tab-container {
+        display: flex;
+        justify-content: center;
+    }
+    /* TOUR CARDS START HERE */
+    
+    .tours__tab {
+        margin: 2.5rem;
+        transform: translateY(-50%);
+    }
+    
+    .tours__tab--active {
+        transform: translateY(-60%);
+    }
+    
+    .tours__content {
+        display: none;
+        font-size: 1.7rem;
+    }
+    
+    .tours__content--active {
+        display: grid;
+        grid-template-columns: 1fr 3fr 4fr;
+        column-gap: 3rem;
+        row-gap: 0.5rem;
+    }
+    
+    .image-tour {
+        display: inline-block;
+        transition: all 0.3s;
+    }
+    
+    .tours__content--active {
+        display: grid;
+        grid-template-columns: 1fr 3fr 4fr;
+        column-gap: 3rem;
+        row-gap: 0.5rem;
+    }
+    
+    .image-tour {
+        display: inline-block;
+        transition: all 0.3s;
+    }
+    
+    .tour-btn {
+        display: inline-block;
+        background-color: #282828;
+        border: none;
+        border-radius: 4rem;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    
+    .btn-content {
+        padding: 2rem 6rem;
+        border-radius: 5rem;
+        background-color: #1A377B;
+        color: #fff;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    
+    .imgTour {
+        position: relative;
+    }
+    
+    .tour-img {
+        width: 55%;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+        border-radius: 2px;
+        position: absolute;
+        z-index: 10;
+        transition: all .2s;
+        outline-offset: 2rem;
+    }
+    
+    .tour1 {
+        left: 0;
+        top: -2rem;
+    }
+    
+    .tour2 {
+        right: 0;
+        top: 2rem;
+    }
+    
+    .tour3 {
+        left: 20%;
+        top: 10rem;
+    }
+    
+    .tour-img:hover {
+        outline: 1.5rem;
+        transform: scale(1.05) translateY(-0.5rem);
+        box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+        z-index: 20;
+    }
+    /* TOUR CARDS START HERE */
+    
+    .tours-h2 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    /* TOUR NAV BAR RULES END HERE */
+    /* TOUR CARDS START HERE */
+    /* TOUR CARDS END HERE*/
+    /* SLIDESHOW RULES */
     /* SLIDESHOW RULES END */
     /* DESTINATIONS SECTION RULES START */
     
@@ -268,6 +427,7 @@
 }
 
 .btn-destination {
+.btn-book {
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.8rem 3rem;
@@ -281,8 +441,19 @@
     cursor: pointer;
     top: 32rem;
     left: 7rem;
+    left: 6rem;
 }
-*/
+
+
+/*  CSS CARD Flip end Here */
+    /* Carousel Here */
+    /* Carousel Finnish */
+    
+    .right {
+        text-align: right;
+        padding: 1rem;
+        margin-right: 5rem;
+    }
     
     .card-title {
         margin-bottom: 0.5rem;
@@ -461,13 +632,9 @@
         position: relative;
     }
     
-    @media only screen and (max-width: 768px) {
-        .imgTour {}
-    }
+    @media only screen and (max-width: 768px) {}
     
-    @media only screen and (max-width: 426px) {
-        .imgTour {}
-    }
+    @media only screen and (max-width: 426px) {}
     
     .tour-img {
         width: 55%;
