@@ -148,10 +148,8 @@ body {
 
 
 @media only screen and (max-width: 426px) {
-  /* Here need to change the header display */
-  .header {
-    display: block;
-  }
+  
+  
   .form {
     
     grid-template-columns: 1fr;
@@ -259,10 +257,7 @@ body {
 }
 
 @media only screen and (min-width: 426px) {
-  /* Here need to change the header display */
-  .header {
-    display: block;
-  }
+  
   .form {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
@@ -357,9 +352,7 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
-  .header {
-    display: block;
-  }
+ 
 
   .form {
     display: grid;
@@ -432,9 +425,9 @@ body {
 } 
 
 @media only screen and (min-width: 769px) {
-  .header {
+  /* .header {
     display: grid;
-  }
+  } */
 
   .input {
     border: solid 1px lightgray;
