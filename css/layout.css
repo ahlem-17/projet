@@ -385,7 +385,7 @@ footer p {
   /* HEADER START */
   .header {
     display: grid;
-    grid-template-columns: 1fr 150px 150px 150px 1fr 50px 50px 50px;
+    grid-template-columns: 150px 150px 150px 150px 1fr 50px 50px 50px;
     grid-template-rows: auto;
     margin: 0;
     gap: 1rem;
@@ -415,7 +415,7 @@ footer p {
   /* HEADER END */
   /* MAIN IMAGE START */
   .main-image {
-    height: 400px;
+    height: 600px;
   }
   .main-image-text {
     font-size: 8rem;
