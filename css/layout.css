@@ -106,6 +106,14 @@ figure img {
 /* TOUR NAV BAR RULES END HERE */
 
 /* DESTINATIONS SECTION RULES START */
+.section-box {
+  padding: 5rem 3rem 2rem 3rem;
+  margin: 2rem auto;
+  background-color: #fbfbfb;
+  border: solid 1px lightgrey;
+  border-radius: 1rem;
+  max-width: 1200px;
+}
 
 #first {
   padding: 2rem;
@@ -389,17 +397,12 @@ footer p {
   }
   /* MAIN IMAGE END */
   /* TOUR NAV START */
-  .tours {
-    max-width: 1000px;
-    margin: auto;
-    background-color: #fff;
-  }
   .nav-grid {
     display: grid;
     grid-template-columns: repeat(7, 70px);
     grid-template-rows: auto;
     margin: auto;
-    background-color: #460c46;
+    background-color: #641164;
     padding: 1.5rem 0 1rem 0;
     gap: 3rem;
     justify-content: center;
@@ -443,24 +446,23 @@ footer p {
   /* TOUR NAV END */
   /* TOUR CARDS START HERE */
   .tours__content {
+    height: 300px;
     display: none;
     font-size: 1.7rem;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
+    width: 100%;
   }
   .tours__content--active {
     display: grid;
-    grid-template-columns: 1fr 3fr 4fr;
-    column-gap: 3rem;
-    row-gap: 0.5rem;
-  }
-  .tours__content--active {
-    display: grid;
-    grid-template-columns: 1fr 3fr 4fr;
+    grid-template-columns: 2fr 3fr 4fr;
     column-gap: 3rem;
     row-gap: 0.5rem;
   }
   .btn-content {
-    padding: 2rem 6rem;
+    height: 70px;
+    width: 200px;
+    padding: 2rem 2rem;
+    border: none;
     border-radius: 5rem;
     background-color: #1a377b;
     color: #fff;
@@ -471,7 +473,10 @@ footer p {
     position: relative;
   }
   .tour-img {
-    width: 55%;
+    width: 250px;
+    height: 150px;
+    padding: 0.2rem;
+    background-color: #fbfbfb;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     position: absolute;
@@ -503,15 +508,6 @@ footer p {
     font-weight: 800;
   }
   /* TOUR NAV BAR RULES END HERE */
-}
-
-@media only screen and (min-width: 992px) {
-  .nav-grid {
-    grid-template-columns: repeat(7, 100px);
-  }
-  .icon-text {
-    font-size: 1.3rem;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -558,5 +554,14 @@ footer p {
   }
   .reviews__author {
     width: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-grid {
+    grid-template-columns: repeat(7, 100px);
+  }
+  .icon-text {
+    font-size: 1.3rem;
   }
 }
