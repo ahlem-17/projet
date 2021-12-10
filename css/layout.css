@@ -1,602 +1,562 @@
 @import url("https://fonts.googleapis.com/css2?family=Amita&family=Bitter&family=Lobster&family=Milonga&family=Montserrat+Alternates&display=swap");
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.2;
-    letter-spacing: 1px;
-    margin-left: 0;
-    margin-right: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .container {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 
 /* GENERAL RULES FOR RESPONSIVE IMAGES START */
 
 figure {
-    display: block;
+  display: block;
 }
 
 figure img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-
 /* GENERAL RULES FOR RESPONSIVE IMAGES END */
-
 
 /* HAMBURGER */
 
 .navbar {
-    background-color: white;
+  background-color: white;
 }
 
 .container-fluid {
-    background-color: white;
+  background-color: white;
 }
 
 .adjusted {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
 }
 
 .align-tour {
-    padding-left: 3rem;
+  padding-left: 3rem;
 }
 
 .logo {
-    width: 5rem;
+  width: 5rem;
 }
 
 .nav-item {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .header {
-    display: none;
+  display: none;
 }
 
-
 /* HEADER NAV BAR RULES END HERE */
-
 
 /* HERO SECTION STARTS HERE */
 
 .main-image {
-    height: 300px;
-    max-width: 100%;
-    background-image: url("/images/backgrounds/machu-picchu-mobile-bg.png");
-    background-size: cover;
-    vertical-align: middle;
-    background-position: center;
-    margin-bottom: 1rem;
+  height: 300px;
+  max-width: 100%;
+  background-image: url("/images/backgrounds/machu-picchu-mobile-bg.png");
+  background-size: cover;
+  vertical-align: middle;
+  background-position: center;
+  margin-bottom: 1rem;
 }
 
 .flex-center {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-image-text {
-    text-align: center;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-size: 3rem;
-    font-weight: 1000;
-    color: white;
-    text-shadow: 0 0 5px #000000;
-    margin: 0;
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 3rem;
+  font-weight: 1000;
+  color: white;
+  text-shadow: 0 0 5px #000000;
+  margin: 0;
 }
 
 .smaller {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
-
 /* HERO SECTION RULES END HERE */
-
 
 /* TOUR NAV BAR RULES STARTS HERE */
 
 .nav-grid {
-    display: none;
+  display: none;
 }
 
-
 /* TOUR NAV BAR RULES END HERE */
-
 
 /* DESTINATIONS SECTION RULES START */
 
 #first {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 #third {
-    padding: 2rem;
-    line-height: 2;
-    background-color: #2d394b;
-    color: #ffffff;
+  padding: 2rem;
+  line-height: 2;
+  background-color: #2d394b;
+  color: #ffffff;
 }
 
 .align {
-    display: flex;
-    padding: 1rem;
+  display: flex;
+  padding: 1rem;
 }
 
 .center {
-    text-align: center;
-    letter-spacing: 5px;
+  text-align: center;
+  letter-spacing: 5px;
 }
 
 .right {
-    text-align: right;
-    padding: 1rem;
-    margin-right: 5rem;
+  text-align: right;
+  padding: 1rem;
+  margin-right: 5rem;
 }
 
 .text {
-    padding: 1.6rem;
+  padding: 1.6rem;
 }
 
 .hand {
-    font-size: 1.8rem;
-    color: #2d394b;
-    margin-right: 1rem;
+  font-size: 1.8rem;
+  color: #2d394b;
+  margin-right: 1rem;
 }
 
-
 /* DESTINATIONS SECTION RULES END */
-
 
 /* Slider REVIEWS START HERE */
 
 .section-reviews {
-    padding: 1rem 3rem;
-    border-top: 1px solid #ddd;
-    transition: transform 1s, opacity 1s;
+  padding: 1rem 3rem;
+  border-top: 1px solid #ddd;
+  transition: transform 1s, opacity 1s;
 }
 
 .section-reviewsTitle {
-    max-width: 80rem;
+  max-width: 80rem;
 }
 
 .section-header {
-    font-size: 4rem;
-    line-height: 1.3;
-    font-weight: 500;
+  font-size: 4rem;
+  line-height: 1.3;
+  font-weight: 500;
 }
 
 .slider-reviews {
-    max-width: 100rem;
-    height: 50rem;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
+  max-width: 100rem;
+  height: 50rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .slideShow {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 50rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 1s;
-    background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+  background-color: whitesmoke;
 }
 
-.slideShow>img {
-    /* Only for images that have different size than slide */
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.slideShow > img {
+  /* Only for images that have different size than slide */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .slider__btns {
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    border: none;
-    background: rgba(255, 255, 255, 0.7);
-    font-family: inherit;
-    color: #333;
-    border-radius: 50%;
-    height: 5.5rem;
-    width: 5.5rem;
-    font-size: 3.25rem;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 5.5rem;
+  width: 5.5rem;
+  font-size: 3.25rem;
+  cursor: pointer;
 }
 
 .slider__btn--left {
-    left: 6%;
-    transform: translate(-50%, -50%);
+  left: 6%;
+  transform: translate(-50%, -50%);
 }
 
 .slider__btn--right {
-    right: 6%;
-    transform: translate(50%, -50%);
+  right: 6%;
+  transform: translate(50%, -50%);
 }
 
 .dot {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
 }
 
 .dots__dot {
-    border: none;
-    background-color: #b9b9b9;
-    opacity: 0.7;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%;
-    margin-right: 1.75rem;
-    cursor: pointer;
-    transition: all 0.5s;
+  border: none;
+  background-color: #b9b9b9;
+  opacity: 0.7;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  margin-right: 1.75rem;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 .dots__dot:last-child {
-    margin: 0;
+  margin: 0;
 }
 
 .dots__dot--active {
-    background-color: #888;
-    opacity: 1;
+  background-color: #888;
+  opacity: 1;
 }
-
 
 /* Reviews */
 
 .reviews {
-    width: 65%;
-    position: relative;
+  width: 65%;
+  position: relative;
 }
 
 .reviews::before {
-    position: absolute;
-    top: -5.7rem;
-    left: -6.8rem;
-    line-height: 1;
-    font-size: 20rem;
-    font-family: inherit;
-    color: #1a377b;
-    z-index: -1;
+  position: absolute;
+  top: -5.7rem;
+  left: -6.8rem;
+  line-height: 1;
+  font-size: 20rem;
+  font-family: inherit;
+  color: #1a377b;
+  z-index: -1;
 }
 
 .reviews__header {
-    font-size: 2.25rem;
-    font-weight: 500;
-    margin-bottom: 1.5rem;
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 
 .reviews__text {
-    font-size: 1.7rem;
-    margin-bottom: 3.5rem;
-    color: #666;
+  font-size: 1.7rem;
+  margin-bottom: 3.5rem;
+  color: #666;
 }
 
 .reviews__author {
-    margin-left: 3rem;
-    font-style: normal;
-    display: grid;
-    grid-template-columns: 6.5rem 1fr;
-    column-gap: 2rem;
+  margin-left: 3rem;
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  column-gap: 2rem;
 }
 
 .reviews__photo {
-    grid-row: 1 / span 2;
-    width: 6.5rem;
-    border-radius: 50%;
+  grid-row: 1 / span 2;
+  width: 6.5rem;
+  border-radius: 50%;
 }
 
 .reviews__name {
-    font-size: 1.6rem;
-    font-weight: 500;
-    align-self: flex-end;
-    margin: 0;
+  font-size: 1.6rem;
+  font-weight: 500;
+  align-self: flex-end;
+  margin: 0;
 }
 
 .reviews__location {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-
 /* SLIDER REVIEWS END HERE */
-
 
 /* Card */
 
 .card-details {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .card-title {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
-
 
 /* FOOTER RULES START HERE */
 
 .footer {
-    background-color: #11263a;
-    color: #ffffff;
-    padding: 3rem;
-    text-align: center;
+  background-color: #11263a;
+  color: #ffffff;
+  padding: 3rem;
+  text-align: center;
 }
 
 footer p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-
 /* FOOTER RULES END HERE */
-
 
 /* MEDIA QUERY RULES START HERE */
 
 @media only screen and (min-width: 426px) {
-    .main-image {
-        /* height: 400px; */
-        background-image: url("/images/backgrounds/machu-picchu-bg.png");
-    }
-    .main-image-text {
-        font-size: 5rem;
-    }
-    .smaller {
-        font-size: 2rem;
-    }
+  .main-image {
+    /* height: 400px; */
+    background-image: url("/images/backgrounds/machu-picchu-bg.png");
+  }
+  .main-image-text {
+    font-size: 5rem;
+  }
+  .smaller {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 769px) {
-    .navbar {
-        display: none;
-    }
-    /* HEADER NAV BAR RULES START HERE */
-    /* .header {
+  .navbar {
+    display: none;
+  }
+  /* HEADER START */
+  .header {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 150px 150px 150px 150px 1fr 50px 50px 50px;
     grid-template-rows: auto;
     margin: 0;
-  } */
-    /* .header > * {
+    gap: 1rem;
+  }
+  .header > * {
     align-self: center;
   }
- */
-    /* .header p {
-    display: none;
+  .header-text {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #282828;
+    font-weight: 600;
+    padding-left: 0.5rem;
   }
-
-  .social-media {
-    display: none;
-  }
-
   #logo {
-    width: 10rem;
-  } */
-    /* HEADER NAV BAR RULES END HERE */
-    /* HEADER START */
-    .header {
-        display: grid;
-        grid-template-columns: 150px 150px 150px 150px 1fr 50px 50px 50px;
-        grid-template-rows: auto;
-        margin: 0;
-        gap: 1rem;
-    }
-    .header>* {
-        align-self: center;
-    }
-    .header-text {
-        font-size: 1.8rem;
-        text-decoration: none;
-        color: #282828;
-        font-weight: 600;
-        padding-left: 0.5rem;
-    }
-    #logo {
-        width: 9rem;
-        padding: 1rem;
-    }
-    .social-media {
-        display: block;
-        margin: 0;
-    }
-    .blue {
-        color: #282828;
-        font-size: 2.8rem;
-    }
-    /* HEADER END */
-    /* MAIN IMAGE START */
-    .main-image {
-        height: 600px;
-    }
-    .main-image-text {
-        font-size: 8rem;
-    }
-    .smaller {
-        font-size: 3rem;
-    }
-    /* MAIN IMAGE END */
-    /* TOUR NAV START */
-    .tours {
-        max-width: 1000px;
-        margin: auto;
-        background-color: #fff;
-    }
-    .nav-grid {
-        display: grid;
-        grid-template-columns: repeat(7, 70px);
-        grid-template-rows: auto;
-        margin: auto;
-        background-color: #460c46;
-        padding: 1.5rem 0 1rem 0;
-        gap: 3rem;
-        justify-content: center;
-    }
-    .nav-grid>* {
-        justify-self: center;
-        align-self: baseline;
-        padding: 1rem;
-    }
-    .image-bg {
-        background-color: #460c46;
-        margin: 0;
-        border-radius: 5rem;
-        padding: 0 0 1rem 0;
-    }
-    .tours__tab--active {
-        transform: translateY(-10%);
-    }
-    .image-tour {
-        display: block;
-        object-fit: cover;
-        transition: all 0.3s;
-    }
-    .tour-btn {
-        display: block;
-        background-color: #460c46;
-        border: none;
-        border-radius: 5rem;
-        cursor: pointer;
-        transition: all 0.3s;
-        padding: 0;
-    }
-    .icon-text {
-        font-family: "Montserrat Alternates", sans-serif;
-        color: white;
-        text-align: center;
-        font-size: 1.1rem;
-        letter-spacing: unset;
-        font-weight: 600;
-    }
-    /* TOUR NAV END */
-    /* TOUR CARDS START HERE */
-    .tours__content {
-        display: none;
-        font-size: 1.7rem;
-        margin-top: 5rem;
-    }
-    .tours__content--active {
-        display: grid;
-        grid-template-columns: 1fr 3fr 4fr;
-        column-gap: 3rem;
-        row-gap: 0.5rem;
-    }
-    .tours__content--active {
-        display: grid;
-        grid-template-columns: 1fr 3fr 4fr;
-        column-gap: 3rem;
-        row-gap: 0.5rem;
-    }
-    .btn-content {
-        padding: 2rem 6rem;
-        border-radius: 5rem;
-        background-color: #1a377b;
-        color: #fff;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-    }
-    .imgTour {
-        position: relative;
-    }
-    .tour-img {
-        width: 55%;
-        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-        border-radius: 2px;
-        position: absolute;
-        z-index: 10;
-        transition: all 0.2s;
-        outline-offset: 2rem;
-    }
-    .tour1 {
-        left: 0;
-        top: -2rem;
-    }
-    .tour2 {
-        right: 0;
-        top: 2rem;
-    }
-    .tour3 {
-        left: 20%;
-        top: 10rem;
-    }
-    .tour-img:hover {
-        outline: 1.5rem;
-        transform: scale(1.05) translateY(-0.5rem);
-        box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
-        z-index: 20;
-    }
-    /* TOUR CARDS START HERE */
-    .tours-h2 {
-        font-size: 3rem;
-        font-weight: 800;
-    }
-    /* TOUR NAV BAR RULES END HERE */
+    width: 9rem;
+    padding: 1rem;
+  }
+  .social-media {
+    display: block;
+    margin: 0;
+  }
+  .blue {
+    color: #282828;
+    font-size: 2.8rem;
+  }
+  /* HEADER END */
+  /* MAIN IMAGE START */
+  .main-image {
+    height: 600px;
+  }
+  .main-image-text {
+    font-size: 8rem;
+  }
+  .smaller {
+    font-size: 3rem;
+  }
+  /* MAIN IMAGE END */
+  /* TOUR NAV START */
+  .tours {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+  }
+  .nav-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 70px);
+    grid-template-rows: auto;
+    margin: auto;
+    background-color: #460c46;
+    padding: 1.5rem 0 1rem 0;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .nav-grid > * {
+    justify-self: center;
+    align-self: baseline;
+    padding: 1rem;
+  }
+  .image-bg {
+    background-color: #460c46;
+    margin: 0;
+    border-radius: 5rem;
+    padding: 0 0 1rem 0;
+  }
+  .tours__tab--active {
+    transform: translateY(-10%);
+  }
+  .image-tour {
+    display: block;
+    object-fit: cover;
+    transition: all 0.3s;
+  }
+  .tour-btn {
+    display: block;
+    background-color: #460c46;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 0;
+  }
+  .icon-text {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    letter-spacing: unset;
+    font-weight: 600;
+  }
+  /* TOUR NAV END */
+  /* TOUR CARDS START HERE */
+  .tours__content {
+    display: none;
+    font-size: 1.7rem;
+    margin-top: 5rem;
+  }
+  .tours__content--active {
+    display: grid;
+    grid-template-columns: 1fr 3fr 4fr;
+    column-gap: 3rem;
+    row-gap: 0.5rem;
+  }
+  .tours__content--active {
+    display: grid;
+    grid-template-columns: 1fr 3fr 4fr;
+    column-gap: 3rem;
+    row-gap: 0.5rem;
+  }
+  .btn-content {
+    padding: 2rem 6rem;
+    border-radius: 5rem;
+    background-color: #1a377b;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .imgTour {
+    position: relative;
+  }
+  .tour-img {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.2s;
+    outline-offset: 2rem;
+  }
+  .tour1 {
+    left: 0;
+    top: -2rem;
+  }
+  .tour2 {
+    right: 0;
+    top: 2rem;
+  }
+  .tour3 {
+    left: 20%;
+    top: 10rem;
+  }
+  .tour-img:hover {
+    outline: 1.5rem;
+    transform: scale(1.05) translateY(-0.5rem);
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+    z-index: 20;
+  }
+  /* TOUR CARDS START HERE */
+  .tours-h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  /* TOUR NAV BAR RULES END HERE */
 }
 
 @media only screen and (min-width: 992px) {
-    .nav-grid {
-        grid-template-columns: repeat(7, 100px);
-    }
-    .icon-text {
-        font-size: 1.3rem;
-    }
+  .nav-grid {
+    grid-template-columns: repeat(7, 100px);
+  }
+  .icon-text {
+    font-size: 1.3rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .tour-img {
-        float: left;
-        position: relative;
-        width: 33.3333333333%;
-        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
-        padding: 2rem;
-    }
-    .tour1 {
-        top: 0;
-        transform: scale(1.2);
-    }
-    .tour2 {
-        top: -1rem;
-        transform: scale(1.3);
-        z-index: 100;
-    }
-    .tour3 {
-        top: 1rem;
-        left: 0;
-        transform: scale(1.1);
-    }
-    .tour-text {
-        font-size: 1.5rem;
-    }
-    .btn-content {
-        padding: 1rem 1rem;
-        border-radius: 2rem;
-        background-color: #1a377b;
-        color: #fff;
-        font-size: 1rem;
-        text-transform: uppercase;
-    }
-    .tour-text {
-        padding: 1rem;
-    }
+  .tour-img {
+    float: left;
+    position: relative;
+    width: 33.3333333333%;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+  }
+  .tour1 {
+    top: 0;
+    transform: scale(1.2);
+  }
+  .tour2 {
+    top: -1rem;
+    transform: scale(1.3);
+    z-index: 100;
+  }
+  .tour3 {
+    top: 1rem;
+    left: 0;
+    transform: scale(1.1);
+  }
+  .tour-text {
+    font-size: 1.5rem;
+  }
+  .btn-content {
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    background-color: #1a377b;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .tour-text {
+    padding: 1rem;
+  }
 }
 
 @media only screen and (max-width: 426px) {
-    .reviews__text {
-        font-size: 1.3rem;
-    }
-    .reviews__author {
-        width: 1rem;
-    }
+  .reviews__text {
+    font-size: 1.3rem;
+  }
+  .reviews__author {
+    width: 1rem;
+  }
 }
