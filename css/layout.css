@@ -384,20 +384,6 @@ footer p {
     font-size: 2rem;
   }
 
-
-
-
-    .main-image {
-        /* height: 400px; */
-        background-image: url("/images/backgrounds/machu-picchu-bg.png");
-    }
-    .main-image-text {
-        font-size: 5rem;
-    }
-    .smaller {
-        font-size: 2rem;
-    }
-
 }
 
 @media only screen and (min-width: 769px) {
@@ -640,7 +626,7 @@ footer p {
     /* HEADER END */
     /* MAIN IMAGE START */
     .main-image {
-        height: 600px;
+        height: 400px;
     }
     .main-image-text {
         font-size: 8rem;
