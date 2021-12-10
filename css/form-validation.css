@@ -1,0 +1,72 @@
+.needs-validation {
+  background-color: #fbfbfb;
+  border: solid 1px lightgrey;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 18px #888888;
+  margin: 0 1.4rem 0.8rem 1.4rem;
+}
+
+.w-100 {
+  width: 20%;
+}
+
+.g-3 {
+  margin: 2rem;
+}
+
+ .submit-button {
+  padding: .8rem;
+  text-transform: uppercase;
+  background-color: slategray;
+ color: #FBFBFB;
+  border-radius: 5px;
+  margin: 3rem 0;
+} 
+
+
+.submit-button:hover{
+  color: #2D394B;
+  border-color: #2D394B;
+}
+
+@media only screen and (min-width: 426px) {
+  .needs-validation{
+    margin: 0 2rem 2rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .needs-validation {
+    margin: 5rem 22rem;
+  }
+
+  .g-3 {
+    margin: 3rem;
+  }
+
+  .form-label {
+    padding: 1.5rem;
+  }
+
+  .form-select {
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    
+  }
+
+  .form-control {
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .submit-button {
+    margin-left: 380px;
+  }
+}
+
+@media all and (max-width:30em){
+  .submit-button{
+    display: block;
+    margin: 0.2em auto;
+  }
+}

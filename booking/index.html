@@ -10,213 +10,252 @@
     rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
     crossorigin="anonymous"
-  />
+    />
+    <link rel="stylesheet" href="../css/form-validation.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/booking.css">
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
-      crossorigin="anonymous"
-    ></script>
+    <!-- <link rel="stylesheet" href="../css/booking.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+   
 </head>
 <body>
-    <!-- <div class="container">
-        <header class="header">
-          <figure id="logo">
-            <a href="./"><img src="../images/Logo-version2.png" alt="" /></a>
-          </figure>
-          <p><a href="../index.html" class="header-text">Adventures</a></p>
-          <p>
-            <a href="#" class="header-text">Booking</a>
-          </p>
-          <p>
-            <a href="../reviews/" class="header-text">Reviews</a>
-          </p>
-          <p></p>
-          <p>
-            <a href="https://fi-fi.facebook.com/">
-              <span class="blue fab fa-facebook"></span
-            ></a>
-          </p>
-          <p>
-            <a href=""><span class="blue fab fa-twitter"></span></a>
-          </p>
-          <p>
-            <a href=""> <span class="blue fab fa-instagram"></span></a>
-          </p>
-        </header> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light adjusted">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">7 wonders</a> -->
+      <figure class="logo">
+        <a href="./"><img src="../images/logo_travel.gif" alt="" /></a>
+    </figure>
 
-        <!-- HERE START THE NAVBAR/NORMAL AND HAMBURGER -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="../booking/">Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+              
+  <header class="header">
+      <figure id="logo">
+          <a href="./"><img src="../images/logo_travel.gif" alt="" /></a>
+      </figure>
+      <p class="header-p-text">
+          <a href="../" class="header-text">Adventures</a>
+      </p>
+      <p>
+          <a href="../booking/" class="header-text">Booking</a>
+      </p>
+      <p>
+          <a href="./reviews/" class="header-text">Reviews</a>
+      </p>
+      <p></p>
+      <figure class="social-media"><a href="https://fi-fi.facebook.com/"><span class="blue fab fa-facebook"></span></a>
+      </figure>
+      <figure class="social-media"><a href=""><span class="blue fab fa-twitter"></span></a></figure>
+      <figure class="social-media">
+          <a href=""> <span class="blue fab fa-instagram"></span></a>
+      </figure>
+  </header>
+  <!-- THE OLD FORM -->
+  <!-- <section>
+    <div>
+      <form class="form" action="#" id="myForm">
+        <div class="first">
+          <label class="label" for="tours">Select your tour</label>
+          <select id="tours" name="tours">
+            <option value="great wall of china">Choose...</option>
+            <option value="great wall of china">The Great Wall of China</option>
+            <option value="colosseum">Colosseum</option>
+            <option value="taj mahal">Taj Mahal</option>
+            <option value="petra">Petra</option>
+            <option value="chiche itza"> Chichen Itza</option>
+            <option value="machu picchu">Machu Picchu</option>
+            <option value="christ the redeemer">Christ the Redeemer</option>
+          </select>
+        </div>
+                
+        <div class="second">
+          <label class="label" for="date">Departure date</label>
+          <input class="thinner input" type="date" id="datemin" name="datemin" min="2000-01-02" max="">
+        </div>
 
-        <!-- <div class="container"> -->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light adjusted">
-            <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#">7 wonders</a> -->
-              <figure class="logo">
-                <a href="./"><img src="../images/logo_travel.gif" alt="" /></a>
-            </figure>
-    
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">Adventures
-                    <!-- <a class="nav-link" href="#">Adventures</a> -->
-                  </li>
-                  <li class="nav-item align-tour">
-                    <a class="nav-link" href="#chichen-itza">Chichén Itzá</a>
-                  </li>
-                  <li class="nav-item align-tour">
-                    <a class="nav-link" href="#colosseum">Colosseum</a>
-                  </li>
-                  <li class="nav-item align-tour">
-                    <a class="nav-link" href="#redeemer">Christ the Redeemer</a>
-                  </li>
-                  <li class="nav-item align-tour">
-                    <a class="nav-link" href="#machu-picchu">Machu Picchu</a>
-                  </li>
-                  <li class="nav-item align-tour">
-                    <a class="nav-link" href="#petra">The Ancient City of Petra</a>
-                  </li>
-                  <li class="nav-item align-tour">
-                    <a class="nav-link" href="#tajmahal">Taj Mahal</a>
-                  </li>
-                  <li class="nav-item align-tour">
-                    <a class="nav-link" href="#wall">Great Wall of China</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./booking/">Booking</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                </ul>
+        <div class="second-return">
+            <label class="label" for="date">Return date</label>
+            <input class="thinner input" type="date" id="datemin" name="datemin" min="2000-01-02" max="">
+        </div>
+
+        <div class="forth">
+            <label class="label" for="travellers">How many travellers?</label>
+            <input class="input" id="number" type="number" min="1" max="" value="">
+            
+        </div>
+
+        <div class="fifth">
+            <label class="label" for="fname">First name</label>
+            <input class="input" type="text" id="fname" name="fname">
+        </div>
+
+        <div class="sixth">
+            <label class="label" for="lname">Last name</label>                   
+            <input class="input" type="text" id="lname" name="lname">                 
+        </div>
+
+        <div class="seventh">
+            <label class="label" for="address">Address</label>
+            <input class="input" class="longer" type="text" id="address" name="address">
+        </div>
+
+        <div  class="eighth">
+            <label class="label" for="phoneNr">Phone number</label>
+            <input class="input" id="phoneNr" name="phoneNr" type="tel">
+        </div>
+
+        <div class="ninth">
+            <label class="label" for="email">Email</label>
+            <input class="input" type="email" placeholder="username@example.com" id="email" name="email">
+        </div>           
+
+        <div class="tenth">
+          <input class="submit input" type="submit" value="Book Now">
+        </div>
+
+        <h4 class="align-to-eleventh">Your booking</h4>
+        <div class="eleventh">
+          <div class="myDiv-tour">Tour name</div>
+          <div class="myDiv-price">Price</div>
+        </div>
+      </form>
+    </div>
+  </section> -->
+
+  <!-- HERE STARTS THE NEW FORM WITH VALIDATION FIELDS  -->
+
+  <div class="container1">
+    <main>
+      <form class="needs-validation" novalidate="">
+        <div class="row g-3">
+
+          <div class="col-12">
+            <label for="country" class="form-label">Select your tour...</label>
+            <select class="form-select" id="country" required="">
+              <option value="">Choose...</option>
+              <option>The Great Wall of China</option>
+              <option>Colosseum</option>
+              <option>Taj Mahal</option>
+              <option>Petra</option>
+              <option>Chichen Itza</option>
+              <option>Machu Picchu</option>
+              <option>Christ the Redeemer</option>
+            </select>
+            <div class="invalid-feedback">
+                Please select a destination.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="departureD" class="form-label">Departure date</label>
+            <input class="form-control" type="date" id="departure" name="datemin" min="2000-01-02" max="" required="">
+            <div class="invalid-feedback">
+              Please select departure date.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="returnD" class="form-label">Return date</label>
+            <input class="form-control" type="date" id="return" name="datemin" min="2000-01-02" max="" required="">
+            <div class="invalid-feedback">
+              Please select return date.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label">First name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="travellers" class="form-label">How many travellers</label>
+            <input type="number" class="form-control" id="" placeholder="" required="">
+            <div class="invalid-feedback">
+              Please, choose travellers. 
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="" required="">
+            <div class="invalid-feedback">
+              Please enter your address.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="username" class="form-label">Phone number</label>
+            <div class="input-group has-validation">
+              <input type="tel" class="form-control" id="" placeholder="" required="">
+              <div class="invalid-feedback">
+                  Your phone number is required.
               </div>
             </div>
-          </nav>
-              
-        <header class="header">
-        <figure id="logo">
-            <a href="./"><img src="../images/logo_travel.gif" alt="" /></a>
-        </figure>
-        <p class="header-p-text">
-            <a href="../" class="header-text">Adventures</a>
-        </p>
-        <p>
-            <a href="../booking/" class="header-text">Booking</a>
-        </p>
-        <p>
-            <a href="./reviews/" class="header-text">Reviews</a>
-        </p>
-        <p></p>
-        <figure class="social-media"><a href="https://fi-fi.facebook.com/"><span class="blue fab fa-facebook"></span></a>
-        </figure>
-        <figure class="social-media"><a href=""><span class="blue fab fa-twitter"></span></a></figure>
-        <figure class="social-media">
-            <a href=""> <span class="blue fab fa-instagram"></span></a>
-        </figure>
-    </header>
-        
-        <section>
-            <div>
-                <form class="form" action="#" id="myForm">
-                    <div class="first">
-                        <label class="label" for="tours">Select your tour</label>
-                        <select id="tours" name="tours">
-                            <option value="great wall of china">Choose...</option>
-                            <option value="great wall of china">The Great Wall of China</option>
-                            <option value="colosseum">Colosseum</option>
-                            <option value="taj mahal">Taj Mahal</option>
-                            <option value="petra">Petra</option>
-                            <option value="chiche itza"> Chichen Itza</option>
-                            <option value="machu picchu">Machu Picchu</option>
-                            <option value="christ the redeemer">Christ the Redeemer</option>
-                        </select>
-                    </div>
-                
-                    
-                    <div class="second">
-                        <label class="label" for="date">Departure date</label>
-                        <input class="thinner input" type="date" id="datemin" name="datemin" min="2000-01-02" max="">
-                    </div>
+          </div>
 
-                    <div class="second-return">
-                        <label class="label" for="date">Return date</label>
-                        <input class="thinner input" type="date" id="datemin" name="datemin" min="2000-01-02" max="">
-                    </div>
-
-                    <!-- <div class="third">
-                        <label class="label" for="days">How many days?</label>
-                        <input class="input"  id="number" type="number" min="1" max="" value="">
-                    </div> -->
-                                    
-                    <div class="forth">
-                        <label class="label" for="travellers">How many travellers?</label>
-                        <input class="input" id="number" type="number" min="1" max="" value="">
-                        
-                    </div>
-
-                    <div class="fifth">
-                        <label class="label" for="fname">First name</label>
-                        <input class="input" type="text" id="fname" name="fname">
-                       
-                    </div>
-
-                    <div class="sixth">
-                        <label class="label" for="lname">Last name</label>                   
-                        <input class="input" type="text" id="lname" name="lname">
-                                               
-                    </div>
-
-                    <div class="seventh">
-                        <label class="label" for="address">Address</label>
-                        <input class="input" class="longer" type="text" id="address" name="address">
-                        
-                    </div>
-
-                    <div  class="eighth">
-                        <label class="label" for="phoneNr">Phone number</label>
-                        <input class="input" id="phoneNr" name="phoneNr" type="tel">
-                        
-                    </div>
-
-                    <div class="ninth">
-                        <label class="label" for="email">Email</label>
-                        <input class="input" type="email" placeholder="username@example.com" id="email" name="email">
-                    </div>           
-
-                    <div class="tenth">
-                        <input class="submit input" type="submit" value="Book Now">
-                    </div>
-
-                    <h4 class="align-to-eleventh">Your booking</h4>
-                    <div class="eleventh">
-                      <div class="myDiv-tour">Tour name</div>
-                      <div class="myDiv-price">Price</div>
-                    </div>
-                </form>
+          <div class="col-sm-6">
+            <label for="email" class="form-label">Email </label>
+            <input type="email" class="form-control" id="email" placeholder="example@example.com" required="">
+            <div class="invalid-feedback">
+              Please enter a valid email addres.
             </div>
-        </section>
+          </div>
+   
+          <div class="send-button">
+            <input class="submit-button" type="submit" value="Book Now">
+        </div>
+      
 
-        <section id="third">
-            <h2>Contact Us</h2>
-            <p><span class="blue fas fa-phone-alt"></span> +358 401 234 567</p>
-            <p><span class="blue fas fa-envelope"></span>info.@yahoo.com</p>
-            <p>
-              <span class="blue fas fa-location-arrow"></span> 0123 Helsinki,
-              Finland
-            </p>
-          </section>
-          <footer class="footer">
-            <p>&copy 2021 Company name. All rights reserved.</p>
-          </footer>
-        </div>    </div>
+          <!-- <button class="w-100 btn btn-primary btn-lg" type="submit">Book Now</button> -->
+        </div>  
+      </form>
+     </main>
+  </div>
+
+  <section id="third">
+    <h2 id="contact">Contact Us</h2>
+    <p><span class="blue fas fa-phone-alt"></span> +358 401 234 567</p>
+    <p><span class="blue fas fa-envelope"></span>info.@yahoo.com</p>
+    <p><span class="blue fas fa-location-arrow"></span> 0123 Helsinki, Finland</p>
+  </section>
+  <footer class="footer">
+    <p>&copy 2021 Company name. All rights reserved.</p>
+  </footer>
+        
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"
+  ></script>
+  <script src="../js/form-validation.js"></script>
     
 </body>
 </html>
