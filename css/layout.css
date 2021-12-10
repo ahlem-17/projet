@@ -96,6 +96,30 @@ figure img {
 
 /* HERO SECTION RULES END HERE */
 
+
+/* CLOUDS ANIMATION OVER THE PHOTO */
+.cloud {
+  position: absolute;
+  
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: url(../images/cloud.png);
+  animation: animate 60s linear infinite;
+}
+
+@keyframes animate
+{
+  0%
+  {
+    background-position: 0px;
+  }
+  100%
+  {
+    background-position: -5440px;
+  }
+}
+
 /* TOUR NAV BAR RULES STARTS HERE */
 .nav-grid {
   display: none;
@@ -356,6 +380,9 @@ footer p {
   .smaller {
     font-size: 2rem;
   }
+
+
+
 }
 
 @media only screen and (min-width: 769px) {
@@ -431,6 +458,11 @@ footer p {
     font-size: 3rem;
   }
   /* MAIN IMAGE END */
+  
+  .cloud {
+    height: 400px;
+    
+  }
   /* TOUR NAV START */
   .tours {
     max-width: 1000px;
