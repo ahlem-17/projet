@@ -66,11 +66,12 @@ figure img {
 .main-image {
   height: 300px;
   max-width: 100%;
-  background-image: url("/images/backgrounds/machu-picchu-mobile-bg.png");
+  background-image: url("/images/backgrounds/machu-picchu.png");
   background-size: cover;
   vertical-align: middle;
   background-position: center;
   margin-bottom: 1rem;
+  
 }
 
 /* CLOUDS ANIMATION OVER THE PHOTO */
@@ -355,7 +356,7 @@ footer p {
 @media only screen and (min-width: 426px) {
   .main-image {
     /* height: 400px; */
-    background-image: url("/images/backgrounds/machu-picchu-bg.png");
+    background-image: url("/images/backgrounds/machu-picchu-laptop.png");
   }
   .main-image-text {
     font-size: 5rem;
@@ -426,7 +427,7 @@ footer p {
     grid-template-columns: repeat(7, 70px);
     grid-template-rows: auto;
     margin: auto;
-    background-color: #460c46;
+    background-color: #7D0002;
     padding: 1.5rem 0 1rem 0;
     gap: 3rem;
     justify-content: center;
@@ -437,7 +438,7 @@ footer p {
     padding: 1rem;
   }
   .image-bg {
-    background-color: #460c46;
+    background-color: #7D0002;
     margin: 0;
     border-radius: 5rem;
     padding: 0 0 1rem 0;
@@ -449,10 +450,12 @@ footer p {
     display: block;
     object-fit: cover;
     transition: all 0.3s;
+    background-color: #FE4E50;
+    border-radius: 5rem;
   }
   .tour-btn {
     display: block;
-    background-color: #460c46;
+    background-color: #7D0002;
     border: none;
     border-radius: 5rem;
     cursor: pointer;
