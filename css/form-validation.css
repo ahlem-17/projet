@@ -15,23 +15,30 @@
 }
 
  .submit-button {
+  font-size: 1rem;
   padding: .8rem;
   text-transform: uppercase;
-  background-color: slategray;
- color: #FBFBFB;
+  background-color: #190e53;
+  color: #FBFBFB;
   border-radius: 5px;
+  border: none;
   margin: 3rem 0;
 } 
 
 
 .submit-button:hover{
-  color: #2D394B;
-  border-color: #2D394B;
+  color: #190e53;
+  border-color: #9fc137;
+  background-color: #9fc137;
 }
 
 @media only screen and (min-width: 426px) {
   .needs-validation{
     margin: 0 2rem 2rem 2rem;
+  }
+
+  .submit-button {
+    font-size: 1.6rem;
   }
 }
 
@@ -61,6 +68,7 @@
 
   .submit-button {
     margin-left: 380px;
+    
   }
 }
 
