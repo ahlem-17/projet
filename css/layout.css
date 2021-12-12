@@ -144,7 +144,7 @@ figure img {
 #third {
     padding: 2rem;
     line-height: 2;
-    background-color: #2d394b;
+    background-color: #2A6877;
     color: #ffffff;
 }
 
@@ -184,6 +184,11 @@ figure img {
     padding: 1rem 3rem;
     border-top: 1px solid #ddd;
     transition: transform 1s, opacity 1s;
+    background-image: url("/images/back.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
 }
 
 .section-reviewsTitle {
@@ -193,7 +198,9 @@ figure img {
 .section-header {
     font-size: 4rem;
     line-height: 1.3;
-    font-weight: 500;
+    font-weight: 700;
+    letter-spacing: .2em;
+    text-transform: uppercase;
 }
 
 .slider-reviews {
@@ -213,7 +220,6 @@ figure img {
     align-items: center;
     justify-content: center;
     transition: transform 1s;
-    background-color: whitesmoke;
 }
 
 .slideShow>img {
@@ -283,6 +289,12 @@ figure img {
 .reviews {
     width: 65%;
     position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 1.9rem;
+    font-size: 1.6rem;
+    transform: skewX(-10deg);
 }
 
 .reviews::before {
@@ -300,12 +312,12 @@ figure img {
     font-size: 2.25rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
+    transform: skewX(10deg);
 }
 
 .reviews__text {
-    font-size: 1.7rem;
     margin-bottom: 3.5rem;
-    color: #666;
+    transform: skewX(10deg);
 }
 
 .reviews__author {
@@ -314,6 +326,7 @@ figure img {
     display: grid;
     grid-template-columns: 6.5rem 1fr;
     column-gap: 2rem;
+    transform: skewX(10deg);
 }
 
 .reviews__photo {
@@ -345,13 +358,14 @@ figure img {
 
 .card-title {
     font-size: 1.7rem;
+    font-weight: 900;
 }
 
 
 /* FOOTER RULES START HERE */
 
 .footer {
-    background-color: #11263a;
+    background-color: #F8E55B;
     color: #ffffff;
     padding: 3rem;
     text-align: center;
@@ -359,6 +373,8 @@ figure img {
 
 footer p {
     font-size: 1.2rem;
+    color: black;
+    font-weight: 400;
 }
 
 
@@ -367,17 +383,17 @@ footer p {
 .btn-text:link,
 .btn-text:visited {
     font-size: 1.3rem;
-    color: #1a377b;
+    color: #025CE2;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1px solid #1a377b;
+    border-bottom: 1px solid #025CE2;
     padding: 3px;
     transition: all .2s;
     font-weight: 500;
 }
 
 .btn-text:hover {
-    background-color: #1a377b;
+    background-color: #025CE2;
     color: white;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     transform: translateX(-2px);
@@ -388,6 +404,12 @@ footer p {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     transform: translateY(0);
 }
+
+.btn-primary {
+    margin-top: 1rem;
+}
+
+.desitnation-title {}
 
 
 /* MEDIA QUERY RULES START HERE */
@@ -465,7 +487,7 @@ footer p {
         grid-template-columns: repeat(7, 70px);
         grid-template-rows: auto;
         margin: auto;
-        background-color: #460c46;
+        background-color: #2A6877;
         padding: 1.5rem 0 1rem 0;
         gap: 3rem;
         justify-content: center;
@@ -476,7 +498,7 @@ footer p {
         padding: 1rem;
     }
     .image-bg {
-        background-color: #460c46;
+        background-color: #2A6877;
         margin: 0;
         border-radius: 5rem;
         padding: 0 0 1rem 0;
@@ -491,7 +513,7 @@ footer p {
     }
     .tour-btn {
         display: block;
-        background-color: #460c46;
+        background-color: #2A6877;
         border: none;
         border-radius: 5rem;
         cursor: pointer;
@@ -573,41 +595,6 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
-    /* .tour-img {
-        float: left;
-        position: relative;
-        width: 33.3333333333%;
-        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
-        padding: 2rem;
-    }
-    .tour1 {
-        top: 0;
-        transform: scale(1.2);
-    }
-    .tour2 {
-        top: -1rem;
-        transform: scale(1.3);
-        z-index: 100;
-    }
-    .tour3 {
-        top: 1rem;
-        left: 0;
-        transform: scale(1.1);
-    }
-    .tour-text {
-        font-size: 1.5rem;
-    }
-    .btn-content {
-        padding: 1rem 1rem;
-        border-radius: 2rem;
-        background-color: #1a377b;
-        color: #fff;
-        font-size: 1rem;
-        text-transform: uppercase;
-    }
-    .tour-text {
-        padding: 1rem;
-    }*/
     .btn-text {
         font-size: 1rem;
     }
@@ -622,6 +609,21 @@ footer p {
     }
     .tours-h2 {
         padding-top: 2rem;
+    }
+    .tours-h2 {
+        background-color: #2A6877;
+        display: inline-block;
+        font-family: inherit;
+        font-weight: 500;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 10rem;
+        cursor: pointer;
+        color: #fff;
+        font-size: 1.4rem;
+    }
+    .tours__content {
+        padding: 2rem;
     }
 }
 
@@ -644,5 +646,12 @@ footer p {
     }
     .tours-h2 {
         padding-top: 2rem;
+    }
+    .reviews {}
+    .section-header {
+        font-size: 3rem;
+    }
+    .tours-h2 {
+        font-size: 1rem;
     }
 }
