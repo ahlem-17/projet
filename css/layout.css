@@ -135,6 +135,7 @@ figure img {
 }
 
 #third {
+  margin-top: 2rem;
   padding: 2rem;
   line-height: 2;
   background-color: #2a6877;
@@ -229,7 +230,7 @@ figure img {
   border-radius: 50%;
   height: 3rem;
   width: 3rem;
-  font-size:2rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -350,6 +351,7 @@ figure img {
 /* FOOTER RULES START HERE */
 
 .footer {
+  margin-top: 2rem;
   background-color: #f8e55b;
   color: #ffffff;
   padding: 3rem;
@@ -414,14 +416,12 @@ footer p {
   .smaller {
     font-size: 2rem;
   }
-  .reviews__name{
+  .reviews__name {
     font-size: 1.6rem;
-
   }
 
-  .reviews__location{
+  .reviews__location {
     font-size: 1.5rem;
-
   }
 }
 
@@ -432,7 +432,7 @@ footer p {
   /* HEADER START */
   .header {
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px 1fr 50px 50px 50px;
+    grid-template-columns: 150px 150px 150px 150px 150px 1fr 50px 50px 50px;
     grid-template-rows: auto;
     margin: 0;
     gap: 1rem;
@@ -586,7 +586,7 @@ footer p {
   }
   /* TOUR NAV BAR RULES END HERE */
 
-  .slider__btns{
+  .slider__btns {
     height: 5.5rem;
     width: 5.5rem;
     font-size: 3.25rem;
