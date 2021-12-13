@@ -61,7 +61,7 @@
     .main-image {
         height: 300px;
         max-width: 100%;
-        background-image: url("/images/backgrounds/machu-picchu-mobile-bg.png");
+        background-image: url("/images/backgrounds/machu-picchu.png");
         background-size: cover;
         vertical-align: middle;
         background-position: center;
@@ -389,7 +389,7 @@
     @media only screen and (min-width: 426px) {
         .main-image {
             /* height: 400px; */
-            background-image: url("/images/backgrounds/machu-picchu-bg.png");
+            background-image: url("/images/backgrounds/machu-picchu-laptop.png");
         }
         .main-image-text {
             font-size: 5rem;
