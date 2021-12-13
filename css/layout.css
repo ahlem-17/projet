@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Amita&family=Bitter&family=Lobster&family=Milonga&family=Montserrat+Alternates&display=swap");
 html {
   font-size: 62.5%;
@@ -393,6 +394,7 @@ footer p {
 .btn {
   background-color: #2a6877;
   margin-top: 1rem;
+  border: #2a6877;
 }
 
 .btn:hover {
@@ -457,8 +459,9 @@ footer p {
     margin: 0;
   }
   .blue {
-    color: #282828;
+    color: #ffffff;
     font-size: 2.8rem;
+    
   }
   /* HEADER END */
   /* MAIN IMAGE START */
@@ -672,4 +675,20 @@ footer p {
     font-size: 1.2rem;
     line-height: 1.6;
   }
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  footer p {
+    font-size: 1.4rem;
+    
+  }
+  .section-reviews{
+    background-position: bottom;
+  }
+
+  .reviews {
+    padding: 5rem;
+  }
+
 }
