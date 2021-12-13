@@ -601,7 +601,7 @@
     
     @media only screen and (max-width: 426px) {
         .reviews__text {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
         }
         .reviews__author {
             width: 1rem;
@@ -613,13 +613,15 @@
             display: none;
         }
         .tour1 {
-            padding-left: 6rem;
+            padding-left: 0;
             margin-bottom: 1rem;
         }
         .tours-h2 {
             padding-top: 2rem;
         }
-        .reviews {}
+        .reviews {
+            width: 76%;
+        }
         .section-header {
             font-size: 3rem;
         }
