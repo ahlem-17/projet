@@ -389,6 +389,7 @@ footer p {
 .btn {
   background-color: #2a6877;
   margin-top: 1rem;
+  border: #2a6877;
 }
 
 .btn:hover {
