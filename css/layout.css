@@ -304,6 +304,7 @@ figure img {
 .reviews__text {
   margin-bottom: 3.5rem;
   transform: skewX(10deg);
+  line-height: 1.7;
 }
 
 .reviews__author {
@@ -336,6 +337,9 @@ figure img {
 
 .card-details {
   font-size: 1.5rem;
+}
+.card-details li {
+  line-height: 1.7;
 }
 
 .card-title {
@@ -470,7 +474,8 @@ footer p {
   .tours {
     background-color: #fff;
     height: 350px;
-    padding: 3rem;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
   }
   .nav-grid {
     display: grid;
