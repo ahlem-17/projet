@@ -41,6 +41,8 @@ figure img {
 .adjusted {
   position: sticky;
   top: 0;
+  z-index: 9999;
+  display: block;
 }
 
 .align-tour {
@@ -106,6 +108,7 @@ figure img {
 /* TOUR NAV BAR RULES END HERE */
 
 /* DESTINATIONS SECTION RULES START */
+
 .section-box {
   padding: 5rem 3rem 2rem 3rem;
   margin: 2rem auto;
@@ -444,6 +447,15 @@ footer p {
     font-weight: 600;
   }
   /* TOUR NAV END */
+  .section-box {
+    padding: 5rem 3rem 2rem 3rem;
+    margin: 2rem auto;
+    background-color: #fbfbfb;
+    border: solid 1px lightgrey;
+    border-radius: 1rem;
+    max-width: 1200px;
+  }
+
   /* TOUR CARDS START HERE */
   .tours__content {
     height: 300px;
