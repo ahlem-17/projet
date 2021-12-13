@@ -226,9 +226,9 @@
         font-family: inherit;
         color: #333;
         border-radius: 50%;
-        height: 5.5rem;
-        width: 5.5rem;
-        font-size: 3.25rem;
+        height: 3rem;
+        width: 3rem;
+        font-size: 2rem;
         cursor: pointer;
     }
     
@@ -322,14 +322,14 @@
     }
     
     .reviews__name {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 500;
         align-self: flex-end;
         margin: 0;
     }
     
     .reviews__location {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     /* SLIDER REVIEWS END HERE */
     /* Card */
@@ -408,6 +408,14 @@
         }
         .smaller {
             font-size: 2rem;
+        }
+
+        .reviews__name{
+            font-size: 1.6rem;
+        }
+
+        .reviews__location{
+            font-size: 1.5rem;
         }
     }
     
@@ -568,6 +576,11 @@
             font-weight: 800;
         }
         /* TOUR NAV BAR RULES END HERE */
+
+        .slider__btns{
+            height: 5.5rem;
+            width: 5.5rem;
+        }
     }
     
     @media only screen and (min-width: 992px) {
