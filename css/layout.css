@@ -670,3 +670,12 @@ footer p {
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .section-reviews{
+    background-position: bottom;
+  }
+
+  .reviews {
+    padding: 5rem;
+  }
+}
