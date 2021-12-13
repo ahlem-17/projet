@@ -456,8 +456,9 @@ footer p {
     margin: 0;
   }
   .blue {
-    color: #282828;
+    color: #ffffff;
     font-size: 2.8rem;
+    
   }
   /* HEADER END */
   /* MAIN IMAGE START */
@@ -671,6 +672,11 @@ footer p {
 }
 
 @media only screen and (min-width: 1200px) {
+  
+  footer p {
+    font-size: 1.4rem;
+    
+  }
   .section-reviews{
     background-position: bottom;
   }
@@ -678,4 +684,5 @@ footer p {
   .reviews {
     padding: 5rem;
   }
+
 }
