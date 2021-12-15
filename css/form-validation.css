@@ -73,6 +73,10 @@
   .submit-button {
     margin-left: 380px;
   }
+
+  #contact{
+    font-size: 2rem;
+  }
 }
 
 @media all and (max-width:30em){
