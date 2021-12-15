@@ -38,6 +38,14 @@
   }
 }
 
+
+@media only screen and (min-width: 426px) {
+  .needs-validation{
+    margin: 0 2rem 2rem 2rem;
+  }
+}
+
+
 @media only screen and (min-width: 1440px) {
   .needs-validation {
     margin: 5rem 22rem;
