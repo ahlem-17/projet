@@ -37,6 +37,14 @@
   }
 }
 
+@media only screen and (min-width: 1024px){
+
+  
+  . contact{
+    font-size: 2rem;
+  }
+}
+
 @media only screen and (min-width: 1440px) {
   .needs-validation {
     margin: 5rem 22rem;

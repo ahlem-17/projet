@@ -351,7 +351,7 @@ figure img {
 /* FOOTER RULES START HERE */
 
 .footer {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   background-color: #f8e55b;
   color: #ffffff;
   padding: 3rem;
