@@ -19,23 +19,52 @@
         <div class="container-fluid">
 
             <figure class="logo">
-                <a href="./"><img src="../images/seven-wonders-logo.png" alt="" /></a>
+                <a href="./"><img src="./../images/seven-wonders-logo.png" alt="" /></a>
             </figure>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+                <span class="navbar-toggler-icon"></span>
+              </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../">Home</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../booking/">Booking</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="./../#tours-nav">Adventures</a>
+                    </li>
+                    <li class="nav-item align-tour">
+                        <a class="nav-link" href="./../#chichen-itza">Chichén Itzá</a>
+                    </li>
+                    <li class="nav-item align-tour">
+                        <a class="nav-link" href="#colosseum">Colosseum</a>
+                    </li>
+                    <li class="nav-item align-tour">
+                        <a class="nav-link" href="./../#redeemer">Christ the Redeemer</a>
+                    </li>
+                    <li class="nav-item align-tour">
+                        <a class="nav-link" href="./../#machu-picchu">Machu Picchu</a>
+                    </li>
+                    <li class="nav-item align-tour">
+                        <a class="nav-link" href="./../#petra">The Ancient City of Petra</a>
+                    </li>
+                    <li class="nav-item align-tour">
+                        <a class="nav-link" href="./../#tajmahal">Taj Mahal</a>
+                    </li>
+                    <li class="nav-item align-tour">
+                        <a class="nav-link" href="./../#wall">Great Wall of China</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./booking/">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -44,17 +73,22 @@
 
     <header class="header">
         <figure id="logo">
-            <a href="./"><img src="../images/seven-wonders-logo.png" alt="" /></a>
+            <a href="./"><img src="./../images/seven-wonders-logo.png" alt="" /></a>
         </figure>
         <p class="header-p-text">
-            <a href="../" class="header-text">Adventures</a>
+            <a href="./../#tours-nav" class="header-text">Adventures</a>
         </p>
         <p>
-            <a href="../" class="header-text">Pricing</a>
+            <a href="./../#pricing" class="header-text">Pricing</a>
         </p>
 
         <p>
-            <a href="../index.html" class="header-text">Reviews</a>
+            
+            <a href="./../#reviews" class="header-text">Reviews</a>
+        </p>
+
+        <p>
+            <a href="./booking/" class="header-text">Booking</a>
         </p>
         <p>
             <a href="../booking/" class="header-text">Booking</a>
@@ -65,14 +99,86 @@
         </figure>
         <figure class="social-media"><a href=""><i class="fab fa-twitter"></i></a></figure>
         <figure class="social-media">
-            <a href=""> <i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
         </figure>
     </header>
-   
- 
+
+
+    <!-- THE OLD FORM -->
+    <!-- <section>
+    <div>
+      <form class="form" action="#" id="myForm">
+        <div class="first">
+          <label class="label" for="tours">Select your tour</label>
+          <select id="tours" name="tours">
+            <option value="great wall of china">Choose...</option>
+            <option value="great wall of china">The Great Wall of China</option>
+            <option value="colosseum">Colosseum</option>
+            <option value="taj mahal">Taj Mahal</option>
+            <option value="petra">Petra</option>
+            <option value="chiche itza"> Chichen Itza</option>
+            <option value="machu picchu">Machu Picchu</option>
+            <option value="christ the redeemer">Christ the Redeemer</option>
+          </select>
+        </div>
+                
+        <div class="second">
+          <label class="label" for="date">Departure date</label>
+          <input class="thinner input" type="date" id="datemin" name="datemin" min="2000-01-02" max="">
+        </div>
+
+        <div class="second-return">
+            <label class="label" for="date">Return date</label>
+            <input class="thinner input" type="date" id="datemin" name="datemin" min="2000-01-02" max="">
+        </div>
+
+        <div class="forth">
+            <label class="label" for="travellers">How many travellers?</label>
+            <input class="input" id="number" type="number" min="1" max="" value="">
+            
+        </div>
+
+        <div class="fifth">
+            <label class="label" for="fname">First name</label>
+            <input class="input" type="text" id="fname" name="fname">
+        </div>
+
+        <div class="sixth">
+            <label class="label" for="lname">Last name</label>                   
+            <input class="input" type="text" id="lname" name="lname">                 
+        </div>
+
+        <div class="seventh">
+            <label class="label" for="address">Address</label>
+            <input class="input" class="longer" type="text" id="address" name="address">
+        </div>
+
+        <div  class="eighth">
+            <label class="label" for="phoneNr">Phone number</label>
+            <input class="input" id="phoneNr" name="phoneNr" type="tel">
+        </div>
+
+        <div class="ninth">
+            <label class="label" for="email">Email</label>
+            <input class="input" type="email" placeholder="username@example.com" id="email" name="email">
+        </div>           
+
+        <div class="tenth">
+          <input class="submit input" type="submit" value="Book Now">
+        </div>
+
+        <h4 class="align-to-eleventh">Your booking</h4>
+        <div class="eleventh">
+          <div class="myDiv-tour">Tour name</div>
+          <div class="myDiv-price">Price</div>
+        </div>
+      </form>
+    </div>
+  </section> -->
+
     <!-- HERE STARTS THE NEW FORM WITH VALIDATION FIELDS  -->
 
-    <div class="container1">
+    <div class="container1 max-width">
         <main>
             <form class="needs-validation" novalidate="">
                 <div class="row g-3">
@@ -171,7 +277,7 @@
         </main>
     </div>
 
-    <section id="third">
+    <section id="contact">
         <h2 id="contact">Contact Us</h2>
         <p><span class="blue fas fa-phone-alt"></span> +358 401 234 567</p>
         <p><span class="blue fas fa-envelope"></span> info.@yahoo.com</p>

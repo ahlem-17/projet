@@ -2,7 +2,7 @@
   background-color: #fbfbfb;
   border: solid 1px lightgrey;
   border-radius: 1rem;
-  box-shadow: 5px 10px 18px #888888;
+  /* box-shadow: 5px 10px 18px #888888; */
   margin: 0 1.4rem 0.8rem 1.4rem;
 }
 
@@ -14,26 +14,25 @@
   margin: 2rem;
 }
 
- .submit-button {
-  padding: .8rem;
+.submit-button {
+  padding: 0.8rem;
   text-transform: uppercase;
-  background-color: #2A6877;
-  border: #2A6877;
- color: #FBFBFB;
+  background-color: #2a6877;
+  border: #2a6877;
+  color: #fbfbfb;
   border-radius: 5px;
   margin: 3rem 0;
-} 
+}
 
-
-.submit-button:hover{
+.submit-button:hover {
   font-weight: bold;
-  color: #2A6877;
-  border-color: #2A6877;
-  background-color: #F8E55B;
+  color: #2a6877;
+  border-color: #2a6877;
+  background-color: #f8e55b;
 }
 
 @media only screen and (min-width: 426px) {
-  .needs-validation{
+  .needs-validation {
     margin: 0 2rem 2rem 2rem;
   }
 }
@@ -62,7 +61,6 @@
   .form-select {
     padding: 1.5rem;
     font-size: 1.4rem;
-    
   }
 
   .form-control {
@@ -84,8 +82,8 @@
   }
 }
 
-@media all and (max-width:30em){
-  .submit-button{
+@media all and (max-width: 30em) {
+  .submit-button {
     display: block;
     margin: 0.2em auto;
   }
