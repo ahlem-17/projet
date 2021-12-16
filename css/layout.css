@@ -136,7 +136,7 @@ figure img {
 }
 
 #third {
-  margin-top: 2rem;
+  margin-top: 4rem;
   padding: 2rem;
   line-height: 2;
   background-color: #2a6877;
@@ -349,10 +349,14 @@ figure img {
   font-size: 1.7rem;
   font-weight: 900;
 }
+
+#tours__content{
+  margin-top: 4rem;
+}
 /* FOOTER RULES START HERE */
 
 .footer {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   background-color: #f8e55b;
   color: #ffffff;
   padding: 3rem;
