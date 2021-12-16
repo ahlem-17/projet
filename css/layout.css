@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Amita&family=Bitter&family=Lobster&family=Milonga&family=Montserrat+Alternates&display=swap");
 html {
   font-size: 62.5%;
@@ -438,6 +437,11 @@ footer p {
     grid-template-rows: auto;
     margin: 0;
     gap: 1rem;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: white;
+    height: 130px;
   }
   .header > * {
     align-self: center;
@@ -461,7 +465,6 @@ footer p {
   .blue {
     color: #ffffff;
     font-size: 2.8rem;
-    
   }
   .fab {
     color: #2a6877;
@@ -682,17 +685,14 @@ footer p {
 }
 
 @media only screen and (min-width: 1200px) {
-  
   footer p {
     font-size: 1.4rem;
-    
   }
-  .section-reviews{
+  .section-reviews {
     background-position: bottom;
   }
 
   .reviews {
     padding: 5rem;
   }
-
 }
