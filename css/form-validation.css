@@ -2,7 +2,7 @@
   background-color: #fbfbfb;
   border: solid 1px lightgrey;
   border-radius: 1rem;
-  box-shadow: 5px 10px 18px #888888; 
+  /* box-shadow: 5px 10px 18px #888888;  */
   margin: 0 1.4rem 0.8rem 1.4rem;
 }
 
@@ -55,7 +55,8 @@
 
 @media only screen and (min-width: 1440px) {
   .needs-validation {
-    margin: 5rem 22rem;
+    box-shadow: 5px 10px 18px #888888;
+    margin: 5rem 15rem;
   }
 
   .g-3 {
