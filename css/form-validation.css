@@ -37,10 +37,18 @@
   }
 }
 
+
+@media only screen and (min-width: 768px){
+  .submit-button {
+    margin-left: 45%;
+  }
+
+}
+
 @media only screen and (min-width: 1024px){
 
   
-  . contact{
+  .contact{
     font-size: 2rem;
   }
 }
