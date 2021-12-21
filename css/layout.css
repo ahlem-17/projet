@@ -74,7 +74,7 @@ figure img {
 .main-image {
   height: 300px;
   max-width: 100%;
-  background-image: url("/images/backgrounds/machu-picchu.png");
+  background-image: url("../images/backgrounds/machu-picchu.png");
   background-size: cover;
   vertical-align: middle;
   background-position: center;
