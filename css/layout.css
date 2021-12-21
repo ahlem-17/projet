@@ -409,7 +409,7 @@ footer p {
 @media only screen and (min-width: 426px) {
   .main-image {
     /* height: 400px; */
-    background-image: url("/images/backgrounds/machu-picchu-laptop.png");
+    background-image: url("../images/backgrounds/machu-picchu-laptop.png");
   }
   .main-image-text {
     font-size: 5rem;
