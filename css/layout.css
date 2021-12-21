@@ -174,7 +174,7 @@ figure img {
   padding: 1rem 3rem;
   border-top: 1px solid #ddd;
   transition: transform 1s, opacity 1s;
-  background-image: url("/images/back2.jpeg");
+  background-image: url("../images/back2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
